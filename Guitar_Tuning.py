@@ -160,18 +160,21 @@ def good_set(tunings, n, count): # find 'good_set's, where a 'good_set' is a lis
         good_sets.append(good_set)
     return good_sets
 def string_start(good_set):
-    for i in good_set:
-        global_strings.append(string_inf(i, []))
-def string_inf(main_tuning, string):
+    for main_tuning in range(length):
+        string_inf(good_set[main_tuning], [main_tuning])
+def string_inf(variations, string):
     total_strings = []
-    for i in main_tuning: # let the variations become the main tuning i
+    for var in variations:
         new_string = string
-        if i not in string: # prevents loops
-            new_string.append(i)  # extends string to have variation/main tuning i
-            for j in string_inf(good_sets[i],new_string): # finds all string variations of i
-                total_strings.append(new_string)
+        new_string.append(var)  # extends string to have variation/main tuning i
+        if var not in string: # prevents loops
+            for collected_string in string_inf(good_sets[var], new_string): # finds all string variations
+                total_strings.append(collected_string)
                 # repetition occurs as we let the main tunings turn into variations for their main tuning
-    global_strings.append(total_strings) # stores all strings together
+        else:
+            global_strings.append(string)
+    if total_strings==[]:
+        global_strings.append(string) # stores all strings together
     return total_strings # returns all string variations of i
 
 
@@ -208,8 +211,10 @@ if "__main__" == __name__:
     results += "\n\n\n"
     results += "Strings:\n"
     count = 0
+    print(good_sets)
     string_start(good_sets)
-    print(global_strings)
+    pprint.pprint(global_strings)
+    '''
     for i in global_strings:
         count += 1
         results += "Set " + str(count) + ":\n"
@@ -218,6 +223,6 @@ if "__main__" == __name__:
             print(j)
             results += display(j)
         results+="\n"
-
+    '''
     file = open('Guitar Tunings.txt','w')
     file.write(results)
