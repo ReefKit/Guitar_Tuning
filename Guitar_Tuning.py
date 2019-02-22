@@ -161,8 +161,17 @@ def good_set(tunings, n, count): # find 'good_set's, where a 'good_set' is a lis
     return good_sets
 def string_start(good_set):
     for main_tuning in range(length):
-        string_inf(good_set[main_tuning], [main_tuning])
-def string_inf(variations, string):
+        string_inf(good_set[main_tuning])
+def string_inf(string):
+    total_string = []
+    for variation in good_sets[string[-1]]:
+        new_string = string
+        new_string.append(variation)
+        for i in string_inf(new_string):
+            total_string.append(i)
+    return(total_string)
+
+    '''
     total_strings = []
     for var in variations:
         new_string = string
@@ -176,7 +185,7 @@ def string_inf(variations, string):
     if total_strings==[]:
         global_strings.append(string) # stores all strings together
     return total_strings # returns all string variations of i
-
+    '''
 
 def display(id):
     tuning = ""
