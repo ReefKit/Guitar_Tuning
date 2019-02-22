@@ -161,15 +161,26 @@ def good_set(tunings, n, count): # find 'good_set's, where a 'good_set' is a lis
     return good_sets
 def string_start(good_set):
     for main_tuning in range(length):
-        string_inf(good_set[main_tuning])
+        variations = good_set[main_tuning]
+        if variations != []:
+            global_strings.append(string_inf([main_tuning]))
 def string_inf(string):
     total_string = []
-    for variation in good_sets[string[-1]]:
-        new_string = string
+    vars = good_sets[string[-1]]
+    if vars == []:
+        total_string.append(string)
+    for variation in vars:
+        new_string = []
+        for q in string:
+            new_string.append(q)
         new_string.append(variation)
-        for i in string_inf(new_string):
-            total_string.append(i)
-    return(total_string)
+        if variation not in string:
+            for i in string_inf(new_string):
+                total_string.append(i)
+        else:
+            total_string.append(new_string)
+
+    return total_string
 
     '''
     total_strings = []
@@ -222,16 +233,13 @@ if "__main__" == __name__:
     count = 0
     print(good_sets)
     string_start(good_sets)
-    pprint.pprint(global_strings)
-    '''
+    print(global_strings)
     for i in global_strings:
-        count += 1
-        results += "Set " + str(count) + ":\n"
-        print(i)
-        for j in i:
-            print(j)
-            results += display(j)
-        results+="\n"
-    '''
+        for k in i:
+            count += 1
+            results += "Set " + str(count) + ":\n"
+            for j in i:
+                results += display(j)
+            results+="\n"
     file = open('Guitar Tunings.txt','w')
     file.write(results)
