@@ -1,11 +1,220 @@
-Main Tuning: Waiting by Calum Graham (Db,Ab,Eb,F,Ab,Eb)
+Main Tuning: Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Number of variations: 2
+Variations:
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+
+Main Tuning: Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Number of variations: 2
+Variations:
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+
+Main Tuning: Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
 Number of variations: 1
 Variations:
+Indivisible by Calum Graham (F,A,C,G,C,E)
+
+Main Tuning: Ocean by John Butler (C,G,C,G,C,E)
+Number of variations: 3
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+
+Main Tuning: Neon by John Mayer (C,A,D,G,B,E)
+Number of variations: 3
+Variations:
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+
+Main Tuning: Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Number of variations: 4
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+
+Main Tuning: Afterglow by Jon Gomm (C,A,F,C,F,A#)
+Number of variations: 0
+Variations:
+
+Main Tuning: Passionflower by Jon Gomm (F,A,C,G,A,C)
+Number of variations: 1
+Variations:
+Indivisible by Calum Graham (F,A,C,G,C,E)
+
+Main Tuning: Orville by Jon Gomm (C,G,D,G,B,D)
+Number of variations: 3
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+
+Main Tuning: Telepathy by Jon Gomm (A,E,B,E,G,B)
+Number of variations: 4
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+
+Main Tuning: The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Number of variations: 4
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+
+Main Tuning: First Flight by Spencer Elliot (C,G,D,G,B,C)
+Number of variations: 5
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Neon by John Mayer (C,A,D,G,B,E)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+
+Main Tuning: Elipsos by Spencer Elliot (D,G,D,F,A,D)
+Number of variations: 0
+Variations:
+
+Main Tuning: Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Number of variations: 4
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+
+Main Tuning: Insignificant by Spencer Elliot (B,F#,D,F#,B,D)
+Number of variations: 2
+Variations:
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+
+Main Tuning: Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+Number of variations: 0
+Variations:
+
+Main Tuning: The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
+Number of variations: 2
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+
+Main Tuning: The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Number of variations: 1
+Variations:
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+
+Main Tuning: Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+Number of variations: 1
+Variations:
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+
+Main Tuning: Time Stands Still (Baritone) by Spencer Elliot (G,D,A,B,D,B)
+Number of variations: 2
+Variations:
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
+
+Main Tuning: Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
+Number of variations: 5
+Variations:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
 Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Acousticore by Tobias Rauscher (C,G,C,G,C,D)
+
+Main Tuning: Torque by Spencer Elliot (C,G,C,G,A#,C)
+Number of variations: 2
+Variations:
+Ocean by John Butler (C,G,C,G,C,E)
+On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
+
+Main Tuning: Unspoken by Spencer Elliot (A,F,C,G,B,C)
+Number of variations: 0
+Variations:
+
+Main Tuning: Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Number of variations: 4
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+
+Main Tuning: On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
+Number of variations: 0
+Variations:
+
+Main Tuning: Hutton Drive by Tobias Rauscher (Eb,Bb,D,G,B,F)
+Number of variations: 0
+Variations:
+
+Main Tuning: Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Number of variations: 1
+Variations:
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Main Tuning: Acousticore by Tobias Rauscher (C,G,C,G,C,D)
+Number of variations: 3
+Variations:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Insignificant by Spencer Elliot (B,F#,D,F#,B,D)
+
+Main Tuning: Coming Home by Tobias Rauscher (E,C,D,G,A,D)
+Number of variations: 0
+Variations:
+
+Main Tuning: Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Number of variations: 1
+Variations:
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Main Tuning: Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Number of variations: 0
+Variations:
+
+Main Tuning: The Nomad by Calum Graham (D,A,D,G,B,E)
+Number of variations: 2
+Variations:
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+Acousticore by Tobias Rauscher (C,G,C,G,C,D)
 
 Main Tuning: Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
 Number of variations: 0
 Variations:
+
+Main Tuning: Waiting by Calum Graham (Db,Ab,Eb,F,Ab,Eb)
+Number of variations: 5
+Variations:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Main Tuning: Indivisible by Calum Graham (F,A,C,G,C,E)
+Number of variations: 2
+Variations:
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+
+Main Tuning: It is what it is by Calum Graham (C,F,C,F,C,C)
+Number of variations: 0
+Variations:
+
+Main Tuning: Three Way Street by Calum Graham (B,G,D,E,B,C)
+Number of variations: 1
+Variations:
+First Flight by Spencer Elliot (C,G,D,G,B,C)
 
 Main Tuning: 12:34 by Calum Graham (D,G,D,F#,Ab,D)
 Number of variations: 0
@@ -18,146 +227,284 @@ Variations:
 Main Tuning: Farewell by Calum Graham (D,G,D,G,B,Eb)
 Number of variations: 1
 Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-
-Main Tuning: The Nomad by Calum Graham (D,A,D,G,B,E)
-Number of variations: 8
-Variations:
-Farewell by Calum Graham (D,G,D,G,B,Eb)
-Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Neon by John Mayer (C,A,D,G,B,E)
-Torque by Spencer Elliot (C,G,C,G,A,E)
-Tournament by Spencer Elliot (D,A,D,G,A,D)
-Acousticore by Tobias Rauscher (C,G,C,G,C,D)
-Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+It is what it is by Calum Graham (C,F,C,F,C,C)
 
 Main Tuning: Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
-Number of variations: 2
-Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-Perspectives by Tobias Rauscher (E,A,D,G,B,D)
-
-Main Tuning: Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Number of variations: 3
-Variations:
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Ocean by John Butler (C,G,C,G,C,E)
-The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
-
-Main Tuning: Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Number of variations: 3
-Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Ocean by John Butler (C,G,C,G,C,E)
-The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
-
-Main Tuning: Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Number of variations: 3
-Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-Torque by Spencer Elliot (C,G,C,G,A,E)
-Tournament by Spencer Elliot (D,A,D,G,A,D)
-
-Main Tuning: Ocean by John Butler (C,G,C,G,C,E)
-Number of variations: 5
-Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Torque by Spencer Elliot (C,G,C,G,A,E)
-The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
-Acousticore by Tobias Rauscher (C,G,C,G,C,D)
-
-Main Tuning: Neon by John Mayer (C,A,D,G,B,E)
-Number of variations: 1
-Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-
-Main Tuning: Wujan Motorcycle Kid by Jon Gomm (A,E,C,E,G,C)
-Number of variations: 1
-Variations:
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-
-Main Tuning: Afterglow by Jon Gomm (C,A,F,C,F,A#)
 Number of variations: 0
 Variations:
-
-Main Tuning: Passionflower by Jon Gomm (F,A,C,G,A,C)
-Number of variations: 0
-Variations:
-
-Main Tuning: Torque by Spencer Elliot (C,G,C,G,A,E)
-Number of variations: 2
-Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-
-Main Tuning: Tournament by Spencer Elliot (D,A,D,G,A,D)
-Number of variations: 4
-Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Coming Home by Tobias Rauscher (E,C,D,G,A,D)
-Perspectives by Tobias Rauscher (E,A,D,G,B,D)
-
-Main Tuning: The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
-Number of variations: 3
-Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Ocean by John Butler (C,G,C,G,C,E)
-
-Main Tuning: Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-Number of variations: 3
-Variations:
-Waiting by Calum Graham (Db,Ab,Eb,F,Ab,Eb)
-Wujan Motorcycle Kid by Jon Gomm (A,E,C,E,G,C)
-Acousticore by Tobias Rauscher (C,G,C,G,C,D)
-
-Main Tuning: On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
-Number of variations: 2
-Variations:
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-
-Main Tuning: Hutton Drive by Tobias Rauscher (Eb,Bb,D,G,B,F)
-Number of variations: 0
-Variations:
-
-Main Tuning: Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Number of variations: 3
-Variations:
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-
-Main Tuning: Acousticore by Tobias Rauscher (C,G,C,G,C,D)
-Number of variations: 3
-Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-Ocean by John Butler (C,G,C,G,C,E)
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-
-Main Tuning: Coming Home by Tobias Rauscher (E,C,D,G,A,D)
-Number of variations: 1
-Variations:
-Tournament by Spencer Elliot (D,A,D,G,A,D)
-
-Main Tuning: Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Number of variations: 3
-Variations:
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-
-Main Tuning: Perspectives by Tobias Rauscher (E,A,D,G,B,D)
-Number of variations: 3
-Variations:
-The Nomad by Calum Graham (D,A,D,G,B,E)
-Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
-Tournament by Spencer Elliot (D,A,D,G,A,D)
 
 
 
 
 Strings:
+Set 1:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 2:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 3:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 4:
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 5:
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 6:
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 7:
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 8:
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 9:
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 10:
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 11:
+Ocean by John Butler (C,G,C,G,C,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 12:
+Ocean by John Butler (C,G,C,G,C,E)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 13:
+Neon by John Mayer (C,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 14:
+Neon by John Mayer (C,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 15:
+Neon by John Mayer (C,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+
+Set 16:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 17:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 18:
+Passionflower by Jon Gomm (F,A,C,G,A,C)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 19:
+Passionflower by Jon Gomm (F,A,C,G,A,C)
+Indivisible by Calum Graham (F,A,C,G,C,E)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 20:
+Orville by Jon Gomm (C,G,D,G,B,D)
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+
+Set 21:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 22:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 23:
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 24:
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+
+Set 25:
+First Flight by Spencer Elliot (C,G,D,G,B,C)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+It is what it is by Calum Graham (C,F,C,F,C,C)
+
+Set 26:
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 27:
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 28:
+Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 29:
+Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 30:
+Torque by Spencer Elliot (C,G,C,G,A#,C)
+On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
+
+Set 31:
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 32:
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 33:
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 34:
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Set 35:
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 36:
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+It is what it is by Calum Graham (C,F,C,F,C,C)
+
+
+
+
+Unique Strings:
+Unique set 1:
+Neon by John Mayer (C,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Unique set 2:
+Neon by John Mayer (C,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Unique set 3:
+Neon by John Mayer (C,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+
+Unique set 4:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 5:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 6:
+Orville by Jon Gomm (C,G,D,G,B,D)
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+
+Unique set 7:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 8:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 9:
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+
+Unique set 10:
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 11:
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 12:
+Torque by Spencer Elliot (C,G,C,G,A#,C)
+On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
+
+Unique set 13:
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 14:
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+
+Unique set 15:
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
