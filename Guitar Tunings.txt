@@ -1,153 +1,137 @@
 Main Tuning: Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Number of variations: 2
+Number of variations: 1
 Variations:
-The Tournament by Spencer Elliot (A,E,C,G,A,E)
-Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
 
 Main Tuning: Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Number of variations: 2
+Number of variations: 1
 Variations:
-The Tournament by Spencer Elliot (A,E,C,G,A,E)
-Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
 
 Main Tuning: Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
 Number of variations: 1
 Variations:
-Indivisible by Calum Graham (F,A,C,G,C,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
 
 Main Tuning: Ocean by John Butler (C,G,C,G,C,E)
-Number of variations: 3
+Number of variations: 0
 Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Indivisible by Calum Graham (F,A,C,G,C,E)
 
 Main Tuning: Neon by John Mayer (C,A,D,G,B,E)
-Number of variations: 3
+Number of variations: 1
 Variations:
-Elipsos by Spencer Elliot (D,G,D,F,A,D)
-Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
-Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
 
 Main Tuning: Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
-Number of variations: 4
+Number of variations: 5
 Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
 
 Main Tuning: Afterglow by Jon Gomm (C,A,F,C,F,A#)
 Number of variations: 0
 Variations:
 
 Main Tuning: Passionflower by Jon Gomm (F,A,C,G,A,C)
-Number of variations: 1
+Number of variations: 0
 Variations:
-Indivisible by Calum Graham (F,A,C,G,C,E)
 
 Main Tuning: Orville by Jon Gomm (C,G,D,G,B,D)
 Number of variations: 3
 Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Perspectives by Tobias Rauscher (E,A,D,G,B,D)
-
-Main Tuning: Telepathy by Jon Gomm (A,E,B,E,G,B)
-Number of variations: 4
-Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-
-Main Tuning: The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
-Number of variations: 4
-Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
-Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
-
-Main Tuning: First Flight by Spencer Elliot (C,G,D,G,B,C)
-Number of variations: 5
-Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
 Neon by John Mayer (C,A,D,G,B,E)
 The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
 Farewell by Calum Graham (D,G,D,G,B,Eb)
+
+Main Tuning: Telepathy by Jon Gomm (A,E,B,E,G,B)
+Number of variations: 5
+Variations:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Main Tuning: The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Number of variations: 2
+Variations:
+Neon by John Mayer (C,A,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+
+Main Tuning: First Flight by Spencer Elliot (C,G,D,G,B,C)
+Number of variations: 1
+Variations:
+Orville by Jon Gomm (C,G,D,G,B,D)
 
 Main Tuning: Elipsos by Spencer Elliot (D,G,D,F,A,D)
 Number of variations: 0
 Variations:
 
 Main Tuning: Carousel by Spencer Elliot (C,G,D,G,A#,D)
-Number of variations: 4
+Number of variations: 5
 Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
 
 Main Tuning: Insignificant by Spencer Elliot (B,F#,D,F#,B,D)
-Number of variations: 2
+Number of variations: 0
 Variations:
-The Tournament by Spencer Elliot (A,E,C,G,A,E)
-Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
 
 Main Tuning: Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 Number of variations: 0
 Variations:
 
 Main Tuning: The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
-Number of variations: 2
+Number of variations: 1
 Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
 
 Main Tuning: The Tournament by Spencer Elliot (A,E,C,G,A,E)
 Number of variations: 1
 Variations:
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
 
 Main Tuning: Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
 Number of variations: 1
 Variations:
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
 
 Main Tuning: Time Stands Still (Baritone) by Spencer Elliot (G,D,A,B,D,B)
-Number of variations: 2
+Number of variations: 0
 Variations:
-The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
-The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
 
 Main Tuning: Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
-Number of variations: 5
+Number of variations: 0
+Variations:
+
+Main Tuning: Torque by Spencer Elliot (C,G,C,G,A#,C)
+Number of variations: 6
 Variations:
 Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
 Telepathy by Jon Gomm (A,E,B,E,G,B)
+First Flight by Spencer Elliot (C,G,D,G,B,C)
 Carousel by Spencer Elliot (C,G,D,G,A#,D)
 Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
 Acousticore by Tobias Rauscher (C,G,C,G,C,D)
-
-Main Tuning: Torque by Spencer Elliot (C,G,C,G,A#,C)
-Number of variations: 2
-Variations:
-Ocean by John Butler (C,G,C,G,C,E)
-On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
 
 Main Tuning: Unspoken by Spencer Elliot (A,F,C,G,B,C)
 Number of variations: 0
 Variations:
 
 Main Tuning: Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-Number of variations: 4
+Number of variations: 5
 Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
 
 Main Tuning: On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
 Number of variations: 0
@@ -160,14 +144,12 @@ Variations:
 Main Tuning: Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
 Number of variations: 1
 Variations:
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
 
 Main Tuning: Acousticore by Tobias Rauscher (C,G,C,G,C,D)
-Number of variations: 3
+Number of variations: 1
 Variations:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Insignificant by Spencer Elliot (B,F#,D,F#,B,D)
+Ocean by John Butler (C,G,C,G,C,E)
 
 Main Tuning: Coming Home by Tobias Rauscher (E,C,D,G,A,D)
 Number of variations: 0
@@ -176,45 +158,41 @@ Variations:
 Main Tuning: Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
 Number of variations: 1
 Variations:
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
 
 Main Tuning: Perspectives by Tobias Rauscher (E,A,D,G,B,D)
-Number of variations: 0
+Number of variations: 3
 Variations:
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
 
 Main Tuning: The Nomad by Calum Graham (D,A,D,G,B,E)
 Number of variations: 2
 Variations:
-Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
-Acousticore by Tobias Rauscher (C,G,C,G,C,D)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
 
-Main Tuning: Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Main Tuning: Phoenix Rising by Calum Graham (C,E,B,E,B,E)
 Number of variations: 0
 Variations:
 
 Main Tuning: Waiting by Calum Graham (Db,Ab,Eb,F,Ab,Eb)
-Number of variations: 5
+Number of variations: 1
 Variations:
-Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
-Orville by Jon Gomm (C,G,D,G,B,D)
-Telepathy by Jon Gomm (A,E,B,E,G,B)
-Carousel by Spencer Elliot (C,G,D,G,A#,D)
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Time Stands Still (Baritone) by Spencer Elliot (G,D,A,B,D,B)
 
 Main Tuning: Indivisible by Calum Graham (F,A,C,G,C,E)
-Number of variations: 2
+Number of variations: 0
 Variations:
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
 
 Main Tuning: It is what it is by Calum Graham (C,F,C,F,C,C)
 Number of variations: 0
 Variations:
 
 Main Tuning: Three Way Street by Calum Graham (B,G,D,E,B,C)
-Number of variations: 1
+Number of variations: 0
 Variations:
-First Flight by Spencer Elliot (C,G,D,G,B,C)
 
 Main Tuning: 12:34 by Calum Graham (D,G,D,F#,Ab,D)
 Number of variations: 0
@@ -227,11 +205,13 @@ Variations:
 Main Tuning: Farewell by Calum Graham (D,G,D,G,B,Eb)
 Number of variations: 1
 Variations:
-It is what it is by Calum Graham (C,F,C,F,C,C)
+The Nomad by Calum Graham (D,A,D,G,B,E)
 
 Main Tuning: Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
-Number of variations: 0
+Number of variations: 2
 Variations:
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
 
 
@@ -239,272 +219,1958 @@ Variations:
 Strings:
 Set 1:
 Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-The Tournament by Spencer Elliot (A,E,C,G,A,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
+Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
 
 Set 2:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-The Tournament by Spencer Elliot (A,E,C,G,A,E)
 Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 3:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 4:
-Waiting For You by Daniel Padim (B,F#,C#,F#,B,F#)
-Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 5:
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-The Tournament by Spencer Elliot (A,E,C,G,A,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 6:
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-The Tournament by Spencer Elliot (A,E,C,G,A,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 7:
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 8:
-Feeling Higher by Daniel Padim (B,F#,C#,F#,B,F#)
-Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 9:
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 10:
-Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 11:
-Ocean by John Butler (C,G,C,G,C,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 12:
-Ocean by John Butler (C,G,C,G,C,E)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 13:
-Neon by John Mayer (C,A,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
 Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
-Set 14:
-Neon by John Mayer (C,A,D,G,B,E)
+Set 3:
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 4:
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
 Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
-Set 15:
+Set 5:
 Neon by John Mayer (C,A,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 6:
+Neon by John Mayer (C,A,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
 Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 7:
+Neon by John Mayer (C,A,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 8:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 9:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 10:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 11:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 12:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 13:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 14:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 15:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 16:
 Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 17:
 Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
 Set 18:
-Passionflower by Jon Gomm (F,A,C,G,A,C)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 19:
-Passionflower by Jon Gomm (F,A,C,G,A,C)
-Indivisible by Calum Graham (F,A,C,G,C,E)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 20:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
 Orville by Jon Gomm (C,G,D,G,B,D)
-Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
 Set 21:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
 Telepathy by Jon Gomm (A,E,B,E,G,B)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 22:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
 Telepathy by Jon Gomm (A,E,B,E,G,B)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 23:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
 The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
 Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
 Set 24:
-The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
-Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
 
 Set 25:
-First Flight by Spencer Elliot (C,G,D,G,B,C)
-Farewell by Calum Graham (D,G,D,G,B,Eb)
-It is what it is by Calum Graham (C,F,C,F,C,C)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 26:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
 Carousel by Spencer Elliot (C,G,D,G,A#,D)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Set 27:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
 Carousel by Spencer Elliot (C,G,D,G,A#,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 28:
-Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 29:
-Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 30:
-Torque by Spencer Elliot (C,G,C,G,A#,C)
-On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
-
-Set 31:
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 32:
-Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 33:
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 34:
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Set 35:
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
 The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
 Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
-Set 36:
+Set 28:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
 Farewell by Calum Graham (D,G,D,G,B,Eb)
-It is what it is by Calum Graham (C,F,C,F,C,C)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 29:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 30:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 31:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 32:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 33:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 34:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 35:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 36:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 37:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 38:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 39:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 40:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 41:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 42:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 43:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 44:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 45:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 46:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 47:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 48:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 49:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 50:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 51:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 52:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 53:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 54:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 55:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 56:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 57:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 58:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 59:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 60:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 61:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 62:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 63:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 64:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 65:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 66:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 67:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 68:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 69:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Set 70:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 71:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 72:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 73:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 74:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 75:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 76:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 77:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 78:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 79:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 80:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 81:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 82:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 83:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 84:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 85:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 86:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 87:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 88:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 89:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 90:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 91:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 92:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 93:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 94:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 95:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 96:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 97:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 98:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 99:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 100:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 101:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 102:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 103:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 104:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 105:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 106:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 107:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 108:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 109:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 110:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 111:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 112:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 113:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 114:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 115:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 116:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 117:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 118:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 119:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 120:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 121:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 122:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 123:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 124:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Set 125:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 126:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 127:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 128:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 129:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 130:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 131:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 132:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 133:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 134:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 135:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 136:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 137:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 138:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 139:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 140:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 141:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 142:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 143:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 144:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 145:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 146:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 147:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 148:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 149:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 150:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 151:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 152:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 153:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 154:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 155:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 156:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 157:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Set 158:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Set 159:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 160:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 161:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 162:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 163:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 164:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 165:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 166:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 167:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 168:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 169:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+
+Set 170:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 171:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 172:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 173:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 174:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 175:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 176:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 177:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 178:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 179:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 180:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Set 181:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 182:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 183:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 184:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Set 185:
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 186:
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 187:
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 188:
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 189:
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 190:
+Orville by Jon Gomm (C,G,D,G,B,D)
+Farewell by Calum Graham (D,G,D,G,B,Eb)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 191:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 192:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 193:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 194:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 195:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 196:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 197:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 198:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 199:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 200:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 201:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 202:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 203:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 204:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 205:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 206:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 207:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+
+Set 208:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 209:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 210:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 211:
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+
+Set 212:
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 213:
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 214:
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 215:
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+
+Set 216:
+The Wolf and the Hawk by Spencer Elliot (C,G,D,F,C,E)
+Yin by Spencer Elliot (C#,G#,C#,E,B,D#)
+
+Set 217:
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+Rain Shadow by Spencer Elliot (A,E,C,G,A,E)
+The Tournament by Spencer Elliot (A,E,C,G,A,E)
+
+Set 218:
+Torque by Spencer Elliot (C,G,C,G,A#,C)
+Acousticore by Tobias Rauscher (C,G,C,G,C,D)
+Ocean by John Butler (C,G,C,G,C,E)
+
+Set 219:
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
+Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
+
+Set 220:
+Acousticore by Tobias Rauscher (C,G,C,G,C,D)
+Ocean by John Butler (C,G,C,G,C,E)
+
+Set 221:
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 222:
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 223:
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 224:
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 225:
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 226:
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 227:
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+Set 228:
+Waiting by Calum Graham (Db,Ab,Eb,F,Ab,Eb)
+Time Stands Still (Baritone) by Spencer Elliot (G,D,A,B,D,B)
+
+Set 229:
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
+
+Set 230:
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
 
 
 
 Unique Strings:
 Unique set 1:
-Neon by John Mayer (C,A,D,G,B,E)
+Pursuing the Horizon by Donovan Raitt (D,A,C,G,A,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
 Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Unique set 2:
 Neon by John Mayer (C,A,D,G,B,E)
-Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Unique set 3:
-Neon by John Mayer (C,A,D,G,B,E)
-Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Torque by Spencer Elliot (C,G,C,G,A#,C)
+Acousticore by Tobias Rauscher (C,G,C,G,C,D)
+Ocean by John Butler (C,G,C,G,C,E)
 
 Unique set 4:
-Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Acousticore by Tobias Rauscher (C,G,C,G,C,D)
+Ocean by John Butler (C,G,C,G,C,E)
 
 Unique set 5:
-Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Unique set 6:
-Orville by Jon Gomm (C,G,D,G,B,D)
 Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
 Unique set 7:
-Telepathy by Jon Gomm (A,E,B,E,G,B)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Unique set 8:
-Telepathy by Jon Gomm (A,E,B,E,G,B)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Perspectives by Tobias Rauscher (E,A,D,G,B,D)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
 
 Unique set 9:
-The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
-Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Unique set 10:
-Carousel by Spencer Elliot (C,G,D,G,A#,D)
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Waiting by Calum Graham (Db,Ab,Eb,F,Ab,Eb)
+Time Stands Still (Baritone) by Spencer Elliot (G,D,A,B,D,B)
 
 Unique set 11:
-Carousel by Spencer Elliot (C,G,D,G,A#,D)
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 
 Unique set 12:
-Torque by Spencer Elliot (C,G,C,G,A#,C)
-On The Run by Tobias Rauscher (D,F#,D,F#,A,B)
-
-Unique set 13:
-Memories by Tobias Rauscher (Eb,G,D,G,Bb,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Unique set 14:
-Still Awake by Tobias Rauscher (D#,G,D,G,A#,D)
-Phoenix Rising by Calum Graham (C,E,B,E,B,Eb)
-
-Unique set 15:
-The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
 Some Forgotten Color (Baritone) by Spencer Elliot (C,E,A,D,F#,B)
+
+
+
+
+Largest set:
+Wujan Motorcycle Kid by Jon Gomm (A,E,B,E,G,B)
+Telepathy by Jon Gomm (A,E,B,E,G,B)
+Carousel by Spencer Elliot (C,G,D,G,A#,D)
+Off The Path by Tobias Rauscher (C,G,D,G,A#,D)
+Orville by Jon Gomm (C,G,D,G,B,D)
+The Battle of WonderLand by Spencer Elliot (C,G,D,G,B,E)
+The Nomad by Calum Graham (D,A,D,G,B,E)
+Whiskey Sunrise by Calum Graham (E,A,D,G,B,E)
+Elipsos by Spencer Elliot (D,G,D,F,A,D)
 

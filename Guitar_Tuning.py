@@ -285,5 +285,12 @@ if "__main__" == __name__:
         for j in i:
             results += display(j)
         results+="\n"
+
+    results += "\n\n\n"
+    results += "Largest set:\n"
+    for i in max(global_strings, key=lambda coll: len(coll)):
+        results += display(i)
+    results += "\n"
+
     file = open('Guitar Tunings.txt', 'w')
     file.write(results)
