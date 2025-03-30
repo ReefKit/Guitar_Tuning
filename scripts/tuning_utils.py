@@ -1,0 +1,121 @@
+""
+"""
+    tuning_utils.py
+
+    This module contains utility functions for handling and analyzing guitar tunings.
+    These functions help calculate pitch differences, compare tunings, and determine
+    whether two tunings are 'close' based on predefined thresholds. Instead of using 
+    modular arithmetic (mod 12) with an octave parameter, we use absolute pitch values 
+    (e.g., C1 = 0, C3 = 24), which allows more precise transposition handling.
+
+    The weighting function for closeness evaluation is embedded in the transposition
+    optimizer, which uses the L1-norm minimized by the median shift.
+"""
+
+import numpy as np
+
+# Mapping of musical notes to semitone values for pitch calculations.
+NOTE_TO_SEMITONE = {
+    "C": 0, "C#": 1, "Db": 1,
+    "D": 2, "D#": 3, "Eb": 3,
+    "E": 4, "E#": 5, "Fb": 4,
+    "F": 5, "F#": 6, "Gb": 6,
+    "G": 7, "G#": 8, "Ab": 8,
+    "A": 9, "A#": 10, "Bb": 10,
+    "B": 11, "Cb": 11, "B#": 0
+}
+
+def get_absolute_pitch(tuning: str) -> list:
+    """
+    Converts a tuning into absolute pitch values, assuming adjacent strings are
+    at most an octave apart and at least a semitone apart.
+
+    Args:
+        tuning (str): The tuning as a space-separated string (e.g., "E A D G B E").
+
+    Returns:
+        list[int]: A list of absolute pitch values.
+    """
+    strings = tuning.split()
+    abs_pitches = [NOTE_TO_SEMITONE[strings[0]]]  # First string starts at base pitch
+    
+    for i in range(1, len(strings)):
+        prev_pitch = abs_pitches[-1]
+        curr_pitch = NOTE_TO_SEMITONE[strings[i]]
+        
+        # Adjust current pitch to ensure it's within the correct octave range
+        while curr_pitch <= prev_pitch - 12:
+            curr_pitch += 12
+        while curr_pitch > prev_pitch:
+            curr_pitch -= 12
+        
+        abs_pitches.append(curr_pitch)
+    
+    return abs_pitches
+
+def optimize_transposition(tuning1: str, tuning2: str) -> int:
+    """
+    Determines the optimal semitone transposition that minimizes the sum of absolute
+    differences between two tunings.
+
+    This function calculates the optimal transposition by finding the median of the
+    differences between corresponding strings of the two tunings. The median minimizes
+    the sum of absolute deviations, providing the most effective transposition value.
+
+    Args:
+        tuning1 (str): The first tuning (e.g., "E A D G B E").
+        tuning2 (str): The second tuning (e.g., "D A D G B E").
+
+    Returns:
+        int: The optimal transposition amount in semitones.
+
+    Raises:
+        ValueError: If the tunings do not have the same number of strings.
+    """
+    abs_pitch1 = get_absolute_pitch(tuning1)
+    abs_pitch2 = get_absolute_pitch(tuning2)
+    
+    if len(abs_pitch1) != len(abs_pitch2):
+        raise ValueError("Tunings must have the same number of strings")
+    
+    # Calculate the differences between corresponding strings
+    differences = [p1 - p2 for p1, p2 in zip(abs_pitch1, abs_pitch2)]
+    
+    # Optimal transposition is the median of the negated differences
+    optimal_transposition = int(np.median([-d for d in differences]))
+    
+    return optimal_transposition
+
+def are_tunings_close(tuning1: str, tuning2: str, max_changed_strings: int, max_pitch_change: int, max_total_difference: int) -> bool:
+    """
+    Evaluates whether two tunings are 'close' by determining the optimal transposition
+    and assessing the number of changed strings, per-string pitch shifts, and total
+    pitch shift across all strings.
+
+    Args:
+        tuning1 (str): The first tuning (e.g., "E A D G B E").
+        tuning2 (str): The second tuning (e.g., "D A D G B E").
+        max_changed_strings (int): Maximum number of allowed string changes.
+        max_pitch_change (int): Maximum semitone change per string.
+        max_total_difference (int): Maximum total pitch difference allowed across all strings.
+
+    Returns:
+        bool: True if the tunings are close under optimal transposition, False otherwise.
+
+    Raises:
+        ValueError: If the tunings do not have the same number of strings.
+    """
+    shift = optimize_transposition(tuning1, tuning2)
+    abs_pitch1 = [p + shift for p in get_absolute_pitch(tuning1)]
+    abs_pitch2 = get_absolute_pitch(tuning2)
+    
+    differences = [abs(p1 - p2) for p1, p2 in zip(abs_pitch1, abs_pitch2)]
+    
+    changed_strings = sum(1 for diff in differences if diff > 0)
+    total_difference = sum(differences)
+    
+    return (
+        changed_strings <= max_changed_strings and
+        all(diff <= max_pitch_change for diff in differences) and
+        total_difference <= max_total_difference
+    )
