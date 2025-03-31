@@ -168,3 +168,88 @@ def insert_tuning_relationship(
         )
     except sqlite3.IntegrityError:
         print(f"⚠️  Skipped duplicate relationship: {tuning_id} ↔ {close_tuning_id}")
+
+def list_closeness_keys(conn: sqlite3.Connection) -> list[tuple[int, int, int, int]]:
+    """
+    Lists all stored closeness keys in the database.
+
+    Args:
+        conn: SQLite connection.
+
+    Returns:
+        List of tuples: (id, max_changed_strings, max_pitch_change, max_total_difference)
+    """
+    cursor = conn.cursor()
+    cursor.execute("SELECT id, max_changed_strings, max_pitch_change, max_total_difference FROM closeness_keys")
+    return cursor.fetchall()
+
+def list_all_tunings(conn: sqlite3.Connection) -> list[tuple[int, str, str]]:
+    """
+    Returns all tunings as (id, tuning_string, name).
+    """
+    cursor = conn.cursor()
+    cursor.execute("SELECT id, tuning, COALESCE(name, '') FROM tunings ORDER BY id")
+    return cursor.fetchall()
+
+
+def update_tuning_name(tuning_id: int, new_name: str, conn: sqlite3.Connection) -> None:
+    """
+    Updates the name of a tuning given its ID.
+    """
+    cursor = conn.cursor()
+    cursor.execute("UPDATE tunings SET name = ? WHERE id = ?", (new_name, tuning_id))
+    conn.commit()
+
+def list_all_songs(conn: sqlite3.Connection) -> list[tuple[int, str, str, str]]:
+    """
+    Returns all songs in the database as (id, name, artist, tuning_string).
+    """
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT songs.id, songs.name, songs.artist, tunings.tuning
+        FROM songs
+        JOIN tunings ON songs.tuning_id = tunings.id
+        ORDER BY songs.artist, songs.name
+    ''')
+    return cursor.fetchall()
+
+def find_songs_by_tuning(tuning: str, conn: sqlite3.Connection) -> list[tuple[int, str, str]]:
+    """
+    Returns all songs using the given tuning string.
+
+    Args:
+        tuning (str): The exact tuning string (e.g., "D A D G A D").
+
+    Returns:
+        List of (song_id, name, artist)
+    """
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT songs.id, songs.name, songs.artist
+        FROM songs
+        JOIN tunings ON songs.tuning_id = tunings.id
+        WHERE tunings.tuning = ?
+        ORDER BY songs.artist, songs.name
+    ''', (tuning,))
+    return cursor.fetchall()
+
+def find_songs_by_name(query: str, conn: sqlite3.Connection) -> list[tuple[int, str, str, str]]:
+    """
+    Returns songs where the name or artist matches a partial case-insensitive query.
+
+    Args:
+        query (str): Partial name or artist to search.
+
+    Returns:
+        List of (song_id, name, artist, tuning_string)
+    """
+    wildcard = f"%{query}%"
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT songs.id, songs.name, songs.artist, tunings.tuning
+        FROM songs
+        JOIN tunings ON songs.tuning_id = tunings.id
+        WHERE songs.name LIKE ? OR songs.artist LIKE ?
+        ORDER BY songs.artist, songs.name
+    ''', (wildcard, wildcard))
+    return cursor.fetchall()
