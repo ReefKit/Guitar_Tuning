@@ -16,29 +16,26 @@ from tuning_analysis import compute_all_closeness
 
 # -------------------- CLI Setup --------------------
 
-@click.group()
+@click.group(help="Guitar Tuning CLI Tool")
 def cli():
-    """Guitar Tuning CLI Tool"""
     pass
 
 
 # -------------------- Song Import Commands --------------------
 
-@cli.command()
+@cli.command(help="Import songs from a CSV file.")
 @click.argument("csv_file", type=click.Path(exists=True))
 def import_csv(csv_file):
-    """Import songs from a CSV file."""
     with sqlite3.connect(DB_FILE) as conn:
         import_songs_from_csv(csv_file, conn)
     click.echo(f"✅ Imported songs from {csv_file}")
 
 
-@cli.command(name="add-song")
+@cli.command(name="add-song", help="Add a single song to the database.")
 @click.option("--name", prompt="Song name", help="The name of the song.")
 @click.option("--artist", prompt="Artist", help="The artist of the song.")
 @click.option("--tuning", prompt="Tuning", help="Tuning (e.g., E A D G B E).")
 def add_song_cli(name, artist, tuning):
-    """Add a single song to the database."""
     with sqlite3.connect(DB_FILE) as conn:
         add_song(name, artist, tuning, conn)
     click.echo(f"✅ Added song: '{name}' by {artist} ({tuning})")
@@ -46,15 +43,13 @@ def add_song_cli(name, artist, tuning):
 
 # -------------------- Song Lookup Commands --------------------
 
-@cli.group()
+@cli.group(help="Commands for listing and searching songs.")
 def song():
-    """Inspect or search songs."""
     pass
 
 
-@song.command("list")
+@song.command("list", help="List all songs in the database.")
 def list_songs():
-    """List all songs in the database."""
     with sqlite3.connect(DB_FILE) as conn:
         songs = list_all_songs(conn)
         if not songs:
@@ -65,10 +60,9 @@ def list_songs():
                 click.echo(f"  ID {sid}: '{name}' by {artist} ({tuning})")
 
 
-@song.command("find-by-tuning")
+@song.command("find-by-tuning", help="Find songs by tuning.")
 @click.argument("tuning")
 def find_by_tuning(tuning):
-    """Find songs by tuning."""
     with sqlite3.connect(DB_FILE) as conn:
         matches = find_songs_by_tuning(tuning, conn)
         if not matches:
@@ -79,10 +73,9 @@ def find_by_tuning(tuning):
                 click.echo(f"  ID {sid}: '{name}' by {artist}")
 
 
-@song.command("find-by-name")
+@song.command("find-by-name", help="Search songs by name or artist (partial match).")
 @click.argument("query")
 def find_by_name(query):
-    """Search songs by name or artist (partial match)."""
     with sqlite3.connect(DB_FILE) as conn:
         matches = find_songs_by_name(query, conn)
         if not matches:
@@ -95,12 +88,11 @@ def find_by_name(query):
 
 # -------------------- Tuning Analysis Commands --------------------
 
-@cli.command()
+@cli.command(help="Analyze tuning closeness and store relationships in the database.")
 @click.option("--max-changed", type=int, required=True, help="Max number of changed strings.")
 @click.option("--max-pitch", type=int, required=True, help="Max pitch change per string.")
 @click.option("--max-total", type=int, required=True, help="Max total pitch change.")
 def analyze(max_changed, max_pitch, max_total):
-    """Analyze tuning closeness and store relationships in the database."""
     with sqlite3.connect(DB_FILE) as conn:
         compute_all_closeness(conn, max_changed, max_pitch, max_total)
     click.echo("✅ Tuning closeness analysis complete.")
@@ -108,9 +100,8 @@ def analyze(max_changed, max_pitch, max_total):
 
 # -------------------- Utility Commands --------------------
 
-@cli.command()
+@cli.command(help="List all stored closeness keys.")
 def show_closeness_keys():
-    """List all stored closeness keys."""
     with sqlite3.connect(DB_FILE) as conn:
         keys = list_closeness_keys(conn)
         if not keys:
@@ -123,15 +114,13 @@ def show_closeness_keys():
 
 # -------------------- Tuning Utilities --------------------
 
-@cli.group()
+@cli.group(help="Inspect or update tunings.")
 def tuning():
-    """Inspect or update tunings."""
     pass
 
 
-@tuning.command("list")
+@tuning.command("list", help="List all tunings in the database.")
 def list_tunings():
-    """List all tunings in the database."""
     with sqlite3.connect(DB_FILE) as conn:
         tunings = list_all_tunings(conn)
         if not tunings:
@@ -140,25 +129,24 @@ def list_tunings():
             click.echo("Tunings:")
             for tid, tuning, name in tunings:
                 label = f" (name: {name})" if name else ""
-                click.echo(f"  ID {tid}: {tuning}{label}")
+                click.echo(f"  ID {tid}: {name or tuning} ({tuning})")
 
 
-@tuning.command("name")
+@tuning.command("name", help="Update the name of a tuning by ID.")
 @click.argument("tuning_id", type=int)
 @click.argument("new_name", type=str)
 def name_tuning(tuning_id, new_name):
-    """Update the name of a tuning by ID."""
     with sqlite3.connect(DB_FILE) as conn:
         update_tuning_name(tuning_id, new_name, conn)
     click.echo(f"✅ Updated tuning ID {tuning_id} with name: {new_name}")
 
+
 # -------------------- Exporting Commands --------------------
 
-@cli.command(name="export-graph")
+@cli.command(name="export-graph", help="Export the tuning graph for a specific closeness key to a GraphML file.")
 @click.option("--closeness-key-id", type=int, prompt="Closeness Key ID", help="The closeness key ID to export.")
 @click.option("--output", default="export/tuning_graph.graphml", help="Output filepath (default: export/tuning_graph.graphml)")
 def export_graph_cli(closeness_key_id, output):
-    """Export the tuning graph for a specific closeness key to a GraphML file."""
     with sqlite3.connect(DB_FILE) as conn:
         nodes, edges = fetch_tunings_and_relationships(closeness_key_id, conn)
         if not edges:
