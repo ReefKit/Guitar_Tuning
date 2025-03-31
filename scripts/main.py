@@ -3,7 +3,6 @@ import sqlite3
 from config import DB_FILE
 from db_manager import (
     add_song,
-    add_tuning,
     import_songs_from_csv,
     list_closeness_keys,
     list_all_tunings,
@@ -12,6 +11,7 @@ from db_manager import (
     find_songs_by_name,
     update_tuning_name
 )
+from export.graph import fetch_tunings_and_relationships, build_graph, export_graph
 from tuning_analysis import compute_all_closeness
 
 # -------------------- CLI Setup --------------------
@@ -30,7 +30,7 @@ def import_csv(csv_file):
     """Import songs from a CSV file."""
     with sqlite3.connect(DB_FILE) as conn:
         import_songs_from_csv(csv_file, conn)
-    click.echo(f"Imported songs from {csv_file}")
+    click.echo(f"✅ Imported songs from {csv_file}")
 
 
 @cli.command(name="add-song")
@@ -40,9 +40,8 @@ def import_csv(csv_file):
 def add_song_cli(name, artist, tuning):
     """Add a single song to the database."""
     with sqlite3.connect(DB_FILE) as conn:
-        tuning_id = add_tuning(tuning, conn)
         add_song(name, artist, tuning, conn)
-    click.echo(f"Added '{name}' by {artist} with tuning: {tuning}")
+    click.echo(f"✅ Added song: '{name}' by {artist} ({tuning})")
 
 
 # -------------------- Song Lookup Commands --------------------
@@ -61,6 +60,7 @@ def list_songs():
         if not songs:
             click.echo("No songs found.")
         else:
+            click.echo("Songs:")
             for sid, name, artist, tuning in songs:
                 click.echo(f"  ID {sid}: '{name}' by {artist} ({tuning})")
 
@@ -74,6 +74,7 @@ def find_by_tuning(tuning):
         if not matches:
             click.echo(f"No songs found with tuning: {tuning}")
         else:
+            click.echo(f"Songs with tuning {tuning}:")
             for sid, name, artist in matches:
                 click.echo(f"  ID {sid}: '{name}' by {artist}")
 
@@ -87,6 +88,7 @@ def find_by_name(query):
         if not matches:
             click.echo(f"No matches found for: {query}")
         else:
+            click.echo(f"Songs matching '{query}':")
             for sid, name, artist, tuning in matches:
                 click.echo(f"  ID {sid}: '{name}' by {artist} ({tuning})")
 
@@ -101,7 +103,7 @@ def analyze(max_changed, max_pitch, max_total):
     """Analyze tuning closeness and store relationships in the database."""
     with sqlite3.connect(DB_FILE) as conn:
         compute_all_closeness(conn, max_changed, max_pitch, max_total)
-    click.echo("Tuning closeness analysis complete.")
+    click.echo("✅ Tuning closeness analysis complete.")
 
 
 # -------------------- Utility Commands --------------------
@@ -148,7 +150,23 @@ def name_tuning(tuning_id, new_name):
     """Update the name of a tuning by ID."""
     with sqlite3.connect(DB_FILE) as conn:
         update_tuning_name(tuning_id, new_name, conn)
-    click.echo(f"Updated tuning ID {tuning_id} with name: {new_name}")
+    click.echo(f"✅ Updated tuning ID {tuning_id} with name: {new_name}")
+
+# -------------------- Exporting Commands --------------------
+
+@cli.command(name="export-graph")
+@click.option("--closeness-key-id", type=int, prompt="Closeness Key ID", help="The closeness key ID to export.")
+@click.option("--output", default="export/tuning_graph.graphml", help="Output filepath (default: export/tuning_graph.graphml)")
+def export_graph_cli(closeness_key_id, output):
+    """Export the tuning graph for a specific closeness key to a GraphML file."""
+    with sqlite3.connect(DB_FILE) as conn:
+        nodes, edges = fetch_tunings_and_relationships(closeness_key_id, conn)
+        if not edges:
+            click.echo(f"⚠️ No tuning relationships found for closeness key ID {closeness_key_id}")
+            return
+        graph = build_graph(nodes, edges, closeness_key_id)
+        export_graph(graph, output)
+    click.echo(f"✅ Exported tuning graph to: {output}")
 
 
 # -------------------- Entry Point --------------------
