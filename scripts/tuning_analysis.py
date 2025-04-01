@@ -13,6 +13,7 @@ from db_manager import (
 )
 from tuning_utils import are_tunings_close
 from tqdm import tqdm
+from itertools import combinations
 
 # -------------------- Analysis Functions --------------------
 
@@ -45,12 +46,9 @@ def compute_all_closeness(conn: sqlite3.Connection, max_changed: int, max_pitch:
     tunings = get_all_tunings(conn)
     closeness_key_id = insert_closeness_key(conn, max_changed, max_pitch, max_total)
 
-    for i in tqdm(range(len(tunings)), desc="Analyzing tuning pairs"):
-        id1, tuning1 = tunings[i]
-        for j in range(i + 1, len(tunings)):
-            id2, tuning2 = tunings[j]
-            if are_tunings_close(tuning1, tuning2, max_changed, max_pitch, max_total):
-                insert_tuning_relationship(conn, id1, id2, closeness_key_id)
+    for (id1, tuning1), (id2, tuning2) in tqdm(combinations(tunings, 2), desc="Analyzing tuning pairs", total=len(tunings)*(len(tunings)-1)//2):
+        if are_tunings_close(tuning1, tuning2, max_changed, max_pitch, max_total):
+            insert_tuning_relationship(conn, id1, id2, closeness_key_id)
 
 
 
@@ -70,18 +68,14 @@ def get_close_tunings(conn: sqlite3.Connection, tuning_id: int, closeness_key_id
     cursor.execute("""
         SELECT 
             CASE
-                WHEN tuning_id_1 = ? THEN tuning_id_2
-                ELSE tuning_id_1
+                WHEN tuning_id = ? THEN close_tuning_id
+                ELSE tuning_id
             END
         FROM tuning_relationships
         WHERE closeness_key_id = ?
-        AND (tuning_id_1 = ? OR tuning_id_2 = ?)
+        AND (tuning_id = ? OR close_tuning_id = ?)
+
     """, (tuning_id, closeness_key_id, tuning_id, tuning_id))
 
     rows = cursor.fetchall()
     return [row[0] for row in rows]
-
-if __name__ == "__main__":
-    conn = sqlite3.connect(DB_FILE)
-    compute_all_closeness(conn, max_changed=3, max_pitch=4, max_total=8)
-    conn.close()
