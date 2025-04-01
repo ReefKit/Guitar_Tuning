@@ -6,7 +6,6 @@ storing results in the database, and batch processing using configurable thresho
 """
 
 import sqlite3
-from config import DB_FILE
 from db_manager import (
     insert_tuning_relationship,
     insert_closeness_key

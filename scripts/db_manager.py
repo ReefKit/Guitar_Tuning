@@ -12,7 +12,6 @@ Usage:
 
 import sqlite3
 import pandas as pd
-from config import DB_FILE  # Import DB path
 
 # -------------------- Core Database Functions --------------------
 
@@ -95,7 +94,7 @@ def import_songs_from_csv(conn: sqlite3.Connection, csv_file: str) -> None:
     if missing_columns:
         raise ValueError(f"CSV must contain columns: {missing_columns}")
 
-    songs = [(row["name"], row["artist"], row["tuning"]) for _, row in df.iterrows()]
+    songs = [(row["name"].strip(), row["artist"].strip(), row["tuning"].strip()) for _, row in df.iterrows()]
     bulk_add_songs(conn, songs)
 
 def insert_closeness_key(
@@ -129,7 +128,6 @@ def insert_closeness_key(
     result = cursor.fetchone()
 
     if result:
-        conn.commit()
         return result[0]  # Reuse existing ID
 
     # Otherwise, insert new key
@@ -141,6 +139,7 @@ def insert_closeness_key(
         (max_changed_strings, max_pitch_change, max_total_difference)
     )
 
+    conn.commit()
     return cursor.lastrowid
 
 def insert_tuning_relationship(
@@ -150,7 +149,7 @@ def insert_tuning_relationship(
     closeness_key_id: int
 ) -> None:
     """
-    Inserts a relationship between two tunings, including a closeness score and key.
+    Inserts a relationship between two tunings for a given closeness key.
 
     Args:
         tuning_id (int): ID of the source tuning.
