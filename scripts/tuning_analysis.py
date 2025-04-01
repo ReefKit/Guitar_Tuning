@@ -54,7 +54,7 @@ def compute_all_closeness(conn: sqlite3.Connection, max_changed: int, max_pitch:
 
 
 
-def get_close_tunings(tuning_id: int, closeness_key_id: int, conn: sqlite3.Connection) -> list[int]:
+def get_close_tunings(conn: sqlite3.Connection, tuning_id: int, closeness_key_id: int) -> list[int]:
     """
     Retrieves a list of tuning IDs that are close to a given tuning under a closeness rule.
 

@@ -1,0 +1,21 @@
+.gitignore
+.idea/Guitar_Tuning.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+Guitar Tuning-5cf31322c0b1.json
+Guitar Tunings.txt
+Guitar_Tuning.py
+export/graph.py
+scripts/__init__.py
+scripts/config.py
+scripts/db_manager.py
+scripts/init_db.py
+scripts/main.py
+scripts/schema.sql
+scripts/setlist_generator.py
+scripts/tuning_analysis.py
+scripts/tuning_utils.py
+spreadsheet.py
+tests/test_db.py
+tests/test_tuning.py

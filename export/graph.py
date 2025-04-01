@@ -1,10 +1,11 @@
 import sqlite3
 import networkx as nx
-import os
+import sys, os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 # -------------------- Graph Export Logic --------------------
 
-def fetch_tunings_and_relationships(closeness_key_id: int, conn: sqlite3.Connection):
+def fetch_tunings_and_relationships(conn: sqlite3.Connection, closeness_key_id: int):
     """
     Fetches tunings and relationships for a specific closeness key.
 

@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import click
 import sqlite3
 from config import DB_FILE
@@ -27,7 +30,7 @@ def cli():
 @click.argument("csv_file", type=click.Path(exists=True))
 def import_csv(csv_file):
     with sqlite3.connect(DB_FILE) as conn:
-        import_songs_from_csv(csv_file, conn)
+        import_songs_from_csv(conn, csv_file)
     click.echo(f"✅ Imported songs from {csv_file}")
 
 
@@ -37,7 +40,7 @@ def import_csv(csv_file):
 @click.option("--tuning", prompt="Tuning", help="Tuning (e.g., E A D G B E).")
 def add_song_cli(name, artist, tuning):
     with sqlite3.connect(DB_FILE) as conn:
-        add_song(name, artist, tuning, conn)
+        add_song(conn, name, artist, tuning)
     click.echo(f"✅ Added song: '{name}' by {artist} ({tuning})")
 
 
@@ -64,7 +67,7 @@ def list_songs():
 @click.argument("tuning")
 def find_by_tuning(tuning):
     with sqlite3.connect(DB_FILE) as conn:
-        matches = find_songs_by_tuning(tuning, conn)
+        matches = find_songs_by_tuning(conn, tuning)
         if not matches:
             click.echo(f"No songs found with tuning: {tuning}")
         else:
@@ -77,7 +80,7 @@ def find_by_tuning(tuning):
 @click.argument("query")
 def find_by_name(query):
     with sqlite3.connect(DB_FILE) as conn:
-        matches = find_songs_by_name(query, conn)
+        matches = find_songs_by_name(conn, query)
         if not matches:
             click.echo(f"No matches found for: {query}")
         else:
@@ -137,7 +140,7 @@ def list_tunings():
 @click.argument("new_name", type=str)
 def name_tuning(tuning_id, new_name):
     with sqlite3.connect(DB_FILE) as conn:
-        update_tuning_name(tuning_id, new_name, conn)
+        update_tuning_name(conn, tuning_id, new_name)
     click.echo(f"✅ Updated tuning ID {tuning_id} with name: {new_name}")
 
 
@@ -148,7 +151,7 @@ def name_tuning(tuning_id, new_name):
 @click.option("--output", default="export/tuning_graph.graphml", help="Output filepath (default: export/tuning_graph.graphml)")
 def export_graph_cli(closeness_key_id, output):
     with sqlite3.connect(DB_FILE) as conn:
-        nodes, edges = fetch_tunings_and_relationships(closeness_key_id, conn)
+        nodes, edges = fetch_tunings_and_relationships(conn, closeness_key_id)
         if not edges:
             click.echo(f"⚠️ No tuning relationships found for closeness key ID {closeness_key_id}")
             return

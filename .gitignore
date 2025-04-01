@@ -1,6 +1,19 @@
+# Python virtual environment
 venv/
-.DS_Store
 __pycache__/
+*.pyc
+
+# Jupyter notebooks
+*.ipynb_checkpoints/
+
+# Backup/temp files
 *~
 .*.swp
+.DS_Store
+
+# Project-specific
 Archive/
+.~*
+
+# Data
+data/*.db

@@ -16,7 +16,7 @@ from config import DB_FILE  # Import DB path
 
 # -------------------- Core Database Functions --------------------
 
-def add_tuning(tuning: str, conn: sqlite3.Connection) -> int:
+def add_tuning(conn: sqlite3.Connection, tuning: str) -> int:
     """
     Inserts a tuning into the database if it doesn't exist.
     Returns the tuning_id.
@@ -34,7 +34,7 @@ def add_tuning(tuning: str, conn: sqlite3.Connection) -> int:
     cursor.execute("INSERT INTO tunings (tuning) VALUES (?)", (tuning,))
     return cursor.lastrowid  # Get the new tuning ID
 
-def add_song(name: str, artist: str, tuning: str, conn: sqlite3.Connection) -> None:
+def add_song(conn: sqlite3.Connection, name: str, artist: str, tuning: str) -> None:
     """
     Inserts a song into the database, ensuring its tuning exists.
     Skips duplicates if song with same name, artist, and tuning_id exists.
@@ -42,7 +42,7 @@ def add_song(name: str, artist: str, tuning: str, conn: sqlite3.Connection) -> N
     cursor = conn.cursor()
 
     # Ensure the tuning exists
-    tuning_id = add_tuning(tuning, conn)
+    tuning_id = add_tuning(conn, tuning)
 
     try:
         # Insert the song
@@ -53,7 +53,7 @@ def add_song(name: str, artist: str, tuning: str, conn: sqlite3.Connection) -> N
     except sqlite3.IntegrityError:
         print(f"⚠️  Skipped duplicate song: {name} by {artist}")
 
-def bulk_add_songs(songs: list[tuple[str, str, str]], conn: sqlite3.Connection) -> None:
+def bulk_add_songs(conn: sqlite3.Connection, songs: list[tuple[str, str, str]]) -> None:
     """
     Adds multiple songs efficiently with one transaction.
     
@@ -65,7 +65,7 @@ def bulk_add_songs(songs: list[tuple[str, str, str]], conn: sqlite3.Connection) 
     inserted_count = 0
 
     for name, artist, tuning in songs:
-        tuning_id = add_tuning(tuning, conn)
+        tuning_id = add_tuning(conn, tuning)
         try:
             cursor.execute(
                 "INSERT INTO songs (name, artist, tuning_id) VALUES (?, ?, ?)",
@@ -77,7 +77,7 @@ def bulk_add_songs(songs: list[tuple[str, str, str]], conn: sqlite3.Connection) 
 
     print(f"✅ Bulk added {inserted_count} new songs.")
 
-def import_songs_from_csv(csv_file: str, conn: sqlite3.Connection) -> None:
+def import_songs_from_csv(conn: sqlite3.Connection, csv_file: str) -> None:
     """
     Reads a CSV file and inserts songs into the database.
 
@@ -94,13 +94,13 @@ def import_songs_from_csv(csv_file: str, conn: sqlite3.Connection) -> None:
         raise ValueError(f"CSV must contain columns: {missing}")
 
     songs = [(row["name"], row["artist"], row["tuning"]) for _, row in df.iterrows()]
-    bulk_add_songs(songs, conn)
+    bulk_add_songs(conn, songs)
 
 def insert_closeness_key(
+    conn: sqlite3.Connection,
     max_changed_strings: int,
     max_pitch_change: int,
-    max_total_difference: int,
-    conn: sqlite3.Connection
+    max_total_difference: int
 ) -> int:
     """
     Inserts a closeness key into the database if it doesn't already exist,
@@ -141,11 +141,11 @@ def insert_closeness_key(
     return cursor.lastrowid
 
 def insert_tuning_relationship(
+    conn: sqlite3.Connection,
     tuning_id: int,
     close_tuning_id: int,
     closeness_score: float,
-    closeness_key_id: int,
-    conn: sqlite3.Connection
+    closeness_key_id: int
 ) -> None:
     """
     Inserts a relationship between two tunings, including a closeness score and key.
@@ -192,7 +192,7 @@ def list_all_tunings(conn: sqlite3.Connection) -> list[tuple[int, str, str]]:
     return cursor.fetchall()
 
 
-def update_tuning_name(tuning_id: int, new_name: str, conn: sqlite3.Connection) -> None:
+def update_tuning_name(conn: sqlite3.Connection, tuning_id: int, new_name: str) -> None:
     """
     Updates the name of a tuning given its ID.
     """
@@ -213,7 +213,7 @@ def list_all_songs(conn: sqlite3.Connection) -> list[tuple[int, str, str, str]]:
     ''')
     return cursor.fetchall()
 
-def find_songs_by_tuning(tuning: str, conn: sqlite3.Connection) -> list[tuple[int, str, str]]:
+def find_songs_by_tuning(conn: sqlite3.Connection, tuning: str) -> list[tuple[int, str, str]]:
     """
     Returns all songs using the given tuning string.
 
@@ -233,7 +233,7 @@ def find_songs_by_tuning(tuning: str, conn: sqlite3.Connection) -> list[tuple[in
     ''', (tuning,))
     return cursor.fetchall()
 
-def find_songs_by_name(query: str, conn: sqlite3.Connection) -> list[tuple[int, str, str, str]]:
+def find_songs_by_name(conn: sqlite3.Connection, query: str) -> list[tuple[int, str, str, str]]:
     """
     Returns songs where the name or artist matches a partial case-insensitive query.
 
