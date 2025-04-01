@@ -37,7 +37,6 @@ def get_absolute_pitch(tuning: str) -> list:
     Returns:
         list[int]: A list of absolute pitch values.
     """
-    strings = tuning.split()
     strings = [note.strip().capitalize() for note in tuning.split()] # Normalise
 
     # Validate that all notes are known
