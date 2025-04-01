@@ -131,8 +131,8 @@ def list_tunings():
         else:
             click.echo("Tunings:")
             for tid, tuning, name in tunings:
-                label = f" (name: {name})" if name else ""
-                click.echo(f"  ID {tid}: {name or tuning} ({tuning})")
+                label = f"{name} ({tuning})" if name else tuning
+                click.echo(f"  ID {tid}: {label}")
 
 
 @tuning.command("name", help="Update the name of a tuning by ID.")
@@ -154,6 +154,8 @@ def export_graph_cli(closeness_key_id, output):
         nodes, edges = fetch_tunings_and_relationships(conn, closeness_key_id)
         if not edges:
             click.echo(f"⚠️ No tuning relationships found for closeness key ID {closeness_key_id}")
+            if not nodes:
+                click.echo("⚠️ No tunings found either — maybe the DB is empty?")
             return
         graph = build_graph(nodes, edges, closeness_key_id)
         export_graph(graph, output)
