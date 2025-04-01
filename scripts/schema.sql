@@ -29,8 +29,8 @@ CREATE TABLE IF NOT EXISTS tuning_relationships (
     tuning_id INTEGER NOT NULL,           -- Reference to tunings.id
     close_tuning_id INTEGER NOT NULL,     -- Another tuning
     closeness_key_id INTEGER NOT NULL,    -- Reference to closeness_keys.id
-    FOREIGN KEY (tuning_id) REFERENCES tunings (id),
-    FOREIGN KEY (close_tuning_id) REFERENCES tunings (id),
-    FOREIGN KEY (closeness_key_id) REFERENCES closeness_keys (id),
+    FOREIGN KEY (tuning_id) REFERENCES tunings(id) ON DELETE CASCADE,
+    FOREIGN KEY (close_tuning_id) REFERENCES tunings(id) ON DELETE CASCADE,
+    FOREIGN KEY (closeness_key_id) REFERENCES closeness_keys(id) ON DELETE CASCADE
     UNIQUE (tuning_id, close_tuning_id, closeness_key_id)  -- Prevents duplicate edges per key
 );

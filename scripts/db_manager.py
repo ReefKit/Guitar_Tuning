@@ -75,6 +75,7 @@ def bulk_add_songs(conn: sqlite3.Connection, songs: list[tuple[str, str, str]]) 
         except sqlite3.IntegrityError:
             print(f"⚠️  Skipped duplicate song: {name} by {artist}")
 
+    conn.commit()
     print(f"✅ Bulk added {inserted_count} new songs.")
 
 def import_songs_from_csv(conn: sqlite3.Connection, csv_file: str) -> None:
@@ -127,6 +128,7 @@ def insert_closeness_key(
     result = cursor.fetchone()
 
     if result:
+        conn.commit()
         return result[0]  # Reuse existing ID
 
     # Otherwise, insert new key
@@ -166,8 +168,9 @@ def insert_tuning_relationship(
             """,
             (tuning_id, close_tuning_id, closeness_score, closeness_key_id)
         )
+        conn.commit()
     except sqlite3.IntegrityError:
-        print(f"⚠️  Skipped duplicate relationship: {tuning_id} ↔ {close_tuning_id}")
+        print(f" Skipped duplicate relationship: {tuning_id} ↔ {close_tuning_id}")
 
 def list_closeness_keys(conn: sqlite3.Connection) -> list[tuple[int, int, int, int]]:
     """
