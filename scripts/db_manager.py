@@ -146,7 +146,6 @@ def insert_tuning_relationship(
     conn: sqlite3.Connection,
     tuning_id: int,
     close_tuning_id: int,
-    closeness_score: float,
     closeness_key_id: int
 ) -> None:
     """
@@ -155,22 +154,25 @@ def insert_tuning_relationship(
     Args:
         tuning_id (int): ID of the source tuning.
         close_tuning_id (int): ID of the related tuning.
-        closeness_score (float): Computed closeness score.
         closeness_key_id (int): ID of the applied closeness rule.
         conn (sqlite3.Connection): Active DB connection.
     """
     cursor = conn.cursor()
+
+    # Ensure consistent order (e.g., avoid storing both (1,2) and (2,1))
+    tuning_id, close_tuning_id = sorted([tuning_id, close_tuning_id])
+
     try:
         cursor.execute(
             """
-            INSERT INTO tuning_relationships (tuning_id, close_tuning_id, closeness_score, closeness_key_id)
+            INSERT INTO tuning_relationships (tuning_id, close_tuning_id, closeness_key_id)
             VALUES (?, ?, ?, ?)
             """,
-            (tuning_id, close_tuning_id, closeness_score, closeness_key_id)
+            (tuning_id, close_tuning_id, closeness_key_id)
         )
         conn.commit()
     except sqlite3.IntegrityError:
-        print(f" Skipped duplicate relationship: {tuning_id} ↔ {close_tuning_id}")
+        print(f"⚠️ Skipped duplicate relationship: {tuning_id} ↔ {close_tuning_id}")
 
 def list_closeness_keys(conn: sqlite3.Connection) -> list[tuple[int, int, int, int]]:
     """
