@@ -166,7 +166,7 @@ def insert_tuning_relationship(
         cursor.execute(
             """
             INSERT INTO tuning_relationships (tuning_id, close_tuning_id, closeness_key_id)
-            VALUES (?, ?, ?, ?)
+            VALUES (?, ?, ?)
             """,
             (tuning_id, close_tuning_id, closeness_key_id)
         )
