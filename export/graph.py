@@ -41,9 +41,10 @@ def build_graph(nodes, edges, closeness_key_id: int) -> nx.Graph:
         A NetworkX Graph object.
     """
     G = nx.Graph()
+    G.graph["closeness_key_id"] = closeness_key_id
 
     for tuning_id, tuning, name in nodes:
-        G.add_node(tuning_id, tuning=tuning, name=name, key=closeness_key_id)
+        G.add_node(tuning_id, tuning=tuning, name=name)
 
     for tuning_id_1, tuning_id_2 in edges:
         G.add_edge(tuning_id_1, tuning_id_2)
@@ -61,5 +62,6 @@ def export_graph(graph: nx.Graph, filepath: str):
     try:
         os.makedirs(os.path.dirname(filepath), exist_ok=True)
         nx.write_graphml(graph, filepath)
+        print(f"✅ Exported graph with {graph.number_of_nodes()} nodes and {graph.number_of_edges()} edges to {filepath}")
     except Exception as e:
         print(f"❌ Failed to export graph: {e}")
