@@ -65,3 +65,37 @@ def export_graph(graph: nx.Graph, filepath: str):
         print(f"✅ Exported graph with {graph.number_of_nodes()} nodes and {graph.number_of_edges()} edges to {filepath}")
     except Exception as e:
         print(f"❌ Failed to export graph: {e}")
+
+# -------------------- Cluster Logic --------------------
+
+def get_clusters(graph: nx.Graph) -> list[list[int]]:
+    """
+    Returns connected components (clusters) of the graph.
+
+    Args:
+        graph: A NetworkX graph.
+
+    Returns:
+        List of clusters, where each cluster is a list of node IDs.
+    """
+    return [list(c) for c in nx.connected_components(graph)]
+
+def export_clusters(graph: nx.Graph, out_dir: str):
+    """
+    Exports each cluster in the graph as a separate GraphML file.
+
+    Args:
+        graph: A NetworkX graph.
+        out_dir: Directory to save the exported cluster files.
+    """
+    clusters = get_clusters(graph)
+    os.makedirs(out_dir, exist_ok=True)
+
+    for i, cluster in enumerate(clusters):
+        subgraph = graph.subgraph(cluster)
+        out_path = os.path.join(out_dir, f"cluster_{i+1}.graphml")
+        try:
+            nx.write_graphml(subgraph, out_path)
+            print(f"✅ Exported cluster {i+1} to {out_path}")
+        except Exception as e:
+            print(f"❌ Failed to export cluster {i+1}: {e}")

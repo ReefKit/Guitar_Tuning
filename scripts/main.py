@@ -14,7 +14,7 @@ from db_manager import (
     find_songs_by_name,
     update_tuning_name
 )
-from export.graph import fetch_tunings_and_relationships, build_graph, export_graph
+from export.graph import fetch_tunings_and_relationships, build_graph, export_graph, get_clusters, export_clusters
 from tuning_analysis import compute_all_closeness
 
 # -------------------- CLI Setup --------------------
@@ -160,6 +160,24 @@ def export_graph_cli(closeness_key_id, output):
         graph = build_graph(nodes, edges, closeness_key_id)
         export_graph(graph, output)
     click.echo(f"✅ Exported tuning graph to: {output}")
+
+@cli.command(name="export-clusters", help="Export each tuning cluster to its own GraphML file.")
+@click.option("--closeness-key-id", type=int, prompt="Closeness Key ID", help="The closeness key ID to analyze.")
+@click.option("--out-dir", default="export/clusters", help="Output directory (default: export/clusters)")
+def export_clusters_cli(closeness_key_id, out_dir):
+    with sqlite3.connect(DB_FILE) as conn:
+        nodes, edges = fetch_tunings_and_relationships(conn, closeness_key_id)
+        if not edges:
+            click.echo(f"⚠️ No tuning relationships found for closeness key ID {closeness_key_id}")
+            return
+        graph = build_graph(nodes, edges, closeness_key_id)
+        export_clusters(graph, out_dir)
+        clusters = get_clusters(graph)
+        click.echo(f"🔍 Found {len(clusters)} cluster(s):")
+        for i, cluster in enumerate(clusters):
+            click.echo(f"  - Cluster {i+1}: {len(cluster)} tuning(s)")
+
+    click.echo(f"✅ Exported all clusters to directory: {out_dir}")
 
 
 # -------------------- Entry Point --------------------
