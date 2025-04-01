@@ -89,10 +89,11 @@ def import_songs_from_csv(conn: sqlite3.Connection, csv_file: str) -> None:
     df = pd.read_csv(csv_file)
 
     # Ensure columns match expected format
-    required_cols = {"name", "artist", "tuning"}
-    missing = required_cols - set(df.columns)
-    if missing:
-        raise ValueError(f"CSV must contain columns: {missing}")
+    required_columns = {"name", "artist", "tuning"}
+    missing_columns = required_columns - set(df.columns)
+
+    if missing_columns:
+        raise ValueError(f"CSV must contain columns: {missing_columns}")
 
     songs = [(row["name"], row["artist"], row["tuning"]) for _, row in df.iterrows()]
     bulk_add_songs(conn, songs)

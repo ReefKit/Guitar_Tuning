@@ -1,4 +1,3 @@
-""
 """
     tuning_utils.py
 
@@ -10,6 +9,8 @@
 
     The weighting function for closeness evaluation is embedded in the transposition
     optimizer, which uses the L1-norm minimized by the median shift.
+
+    All tunings are assumed to be in low-to-high string order (e.g., E A D G B E).
 """
 
 import numpy as np
@@ -37,18 +38,23 @@ def get_absolute_pitch(tuning: str) -> list:
         list[int]: A list of absolute pitch values.
     """
     strings = tuning.split()
+    strings = [note.strip().capitalize() for note in tuning.split()] # Normalise
+
+    # Validate that all notes are known
+    for note in strings:
+        if note not in NOTE_TO_SEMITONE:
+            raise ValueError(f"Unknown note: '{note}' in tuning '{tuning}'")
+
     abs_pitches = [NOTE_TO_SEMITONE[strings[0]]]  # First string starts at base pitch
     
     for i in range(1, len(strings)):
         prev_pitch = abs_pitches[-1]
         curr_pitch = NOTE_TO_SEMITONE[strings[i]]
-        
-        # Adjust current pitch to ensure it's within the correct octave range
-        while curr_pitch <= prev_pitch - 12:
+
+        # Raise current pitch if needed to maintain ascending order
+        while curr_pitch <= prev_pitch:
             curr_pitch += 12
-        while curr_pitch > prev_pitch:
-            curr_pitch -= 12
-        
+
         abs_pitches.append(curr_pitch)
     
     return abs_pitches
