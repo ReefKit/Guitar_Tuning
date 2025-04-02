@@ -258,3 +258,22 @@ def find_songs_by_name(conn: sqlite3.Connection, query: str) -> list[tuple[int, 
         ORDER BY songs.artist, songs.name
     ''', (wildcard, wildcard))
     return cursor.fetchall()
+
+def get_songs_by_tuning_id(conn: sqlite3.Connection, tuning_id: int) -> list[str]:
+    """
+    Returns a list of song titles (with artist) using a given tuning ID.
+
+    Args:
+        tuning_id (int): ID of the tuning.
+
+    Returns:
+        List[str]: A list like ["Song A by Artist1", "Song B by Artist2"]
+    """
+    cursor = conn.cursor()
+    cursor.execute('''
+        SELECT songs.name, songs.artist
+        FROM songs
+        WHERE songs.tuning_id = ?
+        ORDER BY songs.artist, songs.name
+    ''', (tuning_id,))
+    return [f"{name} by {artist}" for name, artist in cursor.fetchall()]

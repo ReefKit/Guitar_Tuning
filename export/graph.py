@@ -1,7 +1,8 @@
-import sqlite3
-import networkx as nx
 import sys, os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import sqlite3
+import networkx as nx
+from scripts.db_manager import get_songs_by_tuning_id
 
 # -------------------- Graph Export Logic --------------------
 
@@ -33,7 +34,7 @@ def fetch_tunings_and_relationships(conn: sqlite3.Connection, closeness_key_id: 
 
     return nodes, edges
 
-def build_graph(nodes, edges, closeness_key_id: int) -> nx.Graph:
+def build_graph(conn: sqlite3.Connection, nodes, edges, closeness_key_id: int) -> nx.Graph:
     """
     Constructs a NetworkX graph from tuning nodes and closeness edges.
 
@@ -44,7 +45,14 @@ def build_graph(nodes, edges, closeness_key_id: int) -> nx.Graph:
     G.graph["closeness_key_id"] = closeness_key_id
 
     for tuning_id, tuning, name in nodes:
-        G.add_node(tuning_id, tuning=tuning, name=name)
+        songs = get_songs_by_tuning_id(conn, tuning_id)
+        song_str = " | ".join(songs) if songs else ""
+        G.add_node(
+            tuning_id,
+            tuning=tuning,
+            name=name,
+            songs=song_str
+        )
 
     for tuning_id_1, tuning_id_2 in edges:
         G.add_edge(tuning_id_1, tuning_id_2)

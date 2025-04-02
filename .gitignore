@@ -17,3 +17,7 @@ Archive/
 
 # Data
 data/*.db
+
+# Graph exports
+export/*.graphml
+export/clusters/

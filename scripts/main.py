@@ -157,7 +157,7 @@ def export_graph_cli(closeness_key_id, output):
             if not nodes:
                 click.echo("⚠️ No tunings found either — maybe the DB is empty?")
             return
-        graph = build_graph(nodes, edges, closeness_key_id)
+        graph = build_graph(conn, nodes, edges, closeness_key_id)
         export_graph(graph, output)
     click.echo(f"✅ Exported tuning graph to: {output}")
 
@@ -170,7 +170,7 @@ def export_clusters_cli(closeness_key_id, out_dir):
         if not edges:
             click.echo(f"⚠️ No tuning relationships found for closeness key ID {closeness_key_id}")
             return
-        graph = build_graph(nodes, edges, closeness_key_id)
+        graph = build_graph(conn, nodes, edges, closeness_key_id)
         export_clusters(graph, out_dir)
         clusters = get_clusters(graph)
         click.echo(f"🔍 Found {len(clusters)} cluster(s):")
