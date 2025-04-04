@@ -29,6 +29,11 @@ def build_interactive_gigset_graph(conn, closeness_key_id: int, output_file: str
     """
     nodes, edges = fetch_tunings_and_relationships(conn, closeness_key_id)
     G = build_graph(conn, nodes, edges, closeness_key_id)
+    print("🧪 Sanity check: dumping 5 edge pitch_vectors from graph:")
+    for i, (u, v, data) in enumerate(G.edges(data=True)):
+        if i >= 5: break
+        print(f"  {u} -> {v}: pitch_vector = {data.get('pitch_vector')}")
+
 
     # Initialize PyVis network
     net = Network(height="800px", width="100%", bgcolor="#1e1e1e", font_color="white")
@@ -51,9 +56,19 @@ def build_interactive_gigset_graph(conn, closeness_key_id: int, output_file: str
             songs_label=songs_label
         )
 
-    # Add edges based on tuning relationships
-    for source, target in G.edges:
-        net.add_edge(source, target, color="#aaaaaa")
+    # Add edges with pitch vector stored directly as a top-level custom attribute
+    for source, target, edge_data in G.edges(data=True):
+        pitch_vector_str = ','.join(map(str, edge_data["pitch_vector"])) if isinstance(edge_data["pitch_vector"], list) else edge_data["pitch_vector"]
+        net.add_edge(
+            source,
+            target,
+            color="#aaaaaa",
+            pitch_vector=pitch_vector_str
+        )
+
+
+
+
 
     # Save HTML to string so we can inject JavaScript for click selection and label toggle
     os.makedirs(os.path.dirname(output_file), exist_ok=True)

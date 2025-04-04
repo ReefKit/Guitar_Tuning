@@ -162,8 +162,14 @@ def insert_tuning_relationship(
     """
     cursor = conn.cursor()
 
-    # Ensure consistent order to avoid duplicates like (1,2) and (2,1)
-    tuning_id, close_tuning_id = sorted([tuning_id, close_tuning_id])
+    original_pair = (tuning_id, close_tuning_id)
+    sorted_pair = tuple(sorted(original_pair))
+
+    # Flip pitch vector if we reversed direction
+    if original_pair != sorted_pair:
+        pitch_vector = ','.join(str(-int(x)) for x in pitch_vector.split(','))
+
+    tuning_id, close_tuning_id = sorted_pair
 
     try:
         cursor.execute(
@@ -177,6 +183,7 @@ def insert_tuning_relationship(
         conn.commit()
     except sqlite3.IntegrityError:
         print(f"⚠️ Skipped duplicate relationship: {tuning_id} ↔ {close_tuning_id}")
+
 
 def list_closeness_keys(conn: sqlite3.Connection) -> list[tuple[int, int, int, int]]:
     """

@@ -84,12 +84,8 @@ def optimize_transposition(tuning1: str, tuning2: str) -> int:
         raise ValueError("Tunings must have the same number of strings")
     
     # Calculate the differences between corresponding strings
-    differences = [p1 - p2 for p1, p2 in zip(abs_pitch1, abs_pitch2)]
-    
-    # Optimal transposition is the median of the negated differences
-    optimal_transposition = int(np.median([-d for d in differences]))
-    
-    return optimal_transposition
+    differences = [p2 - p1 for p1, p2 in zip(abs_pitch1, abs_pitch2)]
+    return int(np.median(differences))
 
 def are_tunings_close(
     tuning1: str,

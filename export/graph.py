@@ -8,11 +8,11 @@ from scripts.db_manager import get_songs_by_tuning_id
 
 def fetch_tunings_and_relationships(conn: sqlite3.Connection, closeness_key_id: int):
     """
-    Fetches tunings and relationships for a specific closeness key.
+    Fetches tunings and relationships (with pitch vector) for a specific closeness key.
 
     Returns:
         nodes: List of (id, tuning, name)
-        edges: List of (tuning_id_1, tuning_id_2)
+        edges: List of (tuning_id_1, tuning_id_2, pitch_vector)
     """
     cursor = conn.cursor()
 
@@ -23,7 +23,7 @@ def fetch_tunings_and_relationships(conn: sqlite3.Connection, closeness_key_id: 
     nodes = cursor.fetchall()
 
     cursor.execute("""
-        SELECT tuning_id, close_tuning_id
+        SELECT tuning_id, close_tuning_id, pitch_vector
         FROM tuning_relationships
         WHERE closeness_key_id = ?
     """, (closeness_key_id,))
@@ -33,6 +33,7 @@ def fetch_tunings_and_relationships(conn: sqlite3.Connection, closeness_key_id: 
         print(f"⚠️ No relationships found for closeness_key_id={closeness_key_id}")
 
     return nodes, edges
+
 
 def build_graph(conn: sqlite3.Connection, nodes, edges, closeness_key_id: int) -> nx.Graph:
     """
@@ -54,10 +55,15 @@ def build_graph(conn: sqlite3.Connection, nodes, edges, closeness_key_id: int) -
             songs=song_str
         )
 
-    for tuning_id_1, tuning_id_2 in edges:
-        G.add_edge(tuning_id_1, tuning_id_2)
+    for tuning_id_1, tuning_id_2, pitch_vector in edges:
+        G.add_edge(
+            tuning_id_1,
+            tuning_id_2,
+            pitch_vector=pitch_vector  # Stored as comma-separated string
+        )
 
     return G
+
 
 def export_graph(graph: nx.Graph, filepath: str):
     """
@@ -74,6 +80,7 @@ def export_graph(graph: nx.Graph, filepath: str):
     except Exception as e:
         print(f"❌ Failed to export graph: {e}")
 
+
 # -------------------- Cluster Logic --------------------
 
 def get_clusters(graph: nx.Graph) -> list[list[int]]:
@@ -87,6 +94,7 @@ def get_clusters(graph: nx.Graph) -> list[list[int]]:
         List of clusters, where each cluster is a list of node IDs.
     """
     return [list(c) for c in nx.connected_components(graph)]
+
 
 def export_clusters(graph: nx.Graph, out_dir: str):
     """
