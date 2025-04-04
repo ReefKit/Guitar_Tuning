@@ -67,9 +67,6 @@ def build_interactive_gigset_graph(conn, closeness_key_id: int, output_file: str
         )
 
 
-
-
-
     # Save HTML to string so we can inject JavaScript for click selection and label toggle
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
     net.show_buttons(filter_=['physics'])
@@ -78,16 +75,24 @@ def build_interactive_gigset_graph(conn, closeness_key_id: int, output_file: str
     with open(output_file, 'r', encoding='utf-8') as f:
         html = f.read()
 
+    # Ensure the HTML content has the proper DOCTYPE and structure
+    if not html.startswith('<!DOCTYPE html>'):
+        html = "<!DOCTYPE html>" + html  # Add DOCTYPE at the start if missing
+
+    # Inject JavaScript into the HTML
     js_file_path = os.path.join(os.path.dirname(__file__), "static", "graph_interactivity.js")
     with open(js_file_path, 'r', encoding='utf-8') as f_js:
         js_script = f"<script>{f_js.read()}</script>"
 
+    # Replace the closing body tag with the injected JS
     html = html.replace("</body>", js_script + "</body>")
 
+    # Write the updated HTML back to the output file
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(html)
 
     print(f"✅ Interactive gigset graph with selection and label toggle saved to {output_file}")
+
 
 if __name__ == "__main__":
     # Entry point to launch the graph from terminal
