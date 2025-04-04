@@ -39,15 +39,16 @@ def build_interactive_gigset_graph(conn, closeness_key_id: int, output_file: str
         data = G.nodes[node_id]
         songs = get_songs_by_tuning_id(conn, node_id)
         tuning_label = data['tuning']
-        tooltip = "<br>".join(songs) if songs else "(No songs)"
-        node_label = tuning_label  # default to tuning string
+        songs_label = "\n".join(songs) if songs else "(No songs)"
+
         net.add_node(
             node_id,
-            label=node_label,
-            title=tooltip,
+            label=tuning_label,  # default view
             color="#00bfff",
             shape="dot",
-            size=15 + len(songs)*2
+            size=15 + len(songs)*2,
+            tuning_label=tuning_label,
+            songs_label=songs_label
         )
 
     # Add edges based on tuning relationships
@@ -62,66 +63,9 @@ def build_interactive_gigset_graph(conn, closeness_key_id: int, output_file: str
     with open(output_file, 'r', encoding='utf-8') as f:
         html = f.read()
 
-    js_script = '''
-    <script>
-    var selectedNodes = new Set();
-    var showSongs = false;
-
-    function toggleNodeSelection(params) {
-        if (params.nodes.length > 0) {
-            var nodeId = params.nodes[0];
-            var node = this.body.nodes[nodeId];
-            if (selectedNodes.has(nodeId)) {
-                selectedNodes.delete(nodeId);
-                node.setOptions({color: '#00bfff'});
-            } else {
-                selectedNodes.add(nodeId);
-                node.setOptions({color: '#ff69b4'});
-            }
-        }
-    }
-
-    function showSelected() {
-        alert("Selected tunings: " + Array.from(selectedNodes).join(", "));
-    }
-
-    function toggleLabels() {
-        showSongs = !showSongs;
-        network.body.data.nodes.get().forEach(function(node) {
-            var nodeObj = network.body.nodes[node.id];
-            if (showSongs) {
-                if (node.title && node.title !== "(No songs)") {
-                    var songList = node.title.replace(/<br>/g, ", ");
-                    nodeObj.setOptions({label: node.label + "\n(" + songList + ")"});
-                }
-            } else {
-                var tuningOnly = node.label.split("\n")[0];
-                nodeObj.setOptions({label: tuningOnly});
-            }
-        });
-    }
-
-    network.on("click", toggleNodeSelection);
-
-    var btn = document.createElement("button");
-    btn.innerHTML = "Show Selected Tunings";
-    btn.style.position = "absolute";
-    btn.style.top = "10px";
-    btn.style.left = "10px";
-    btn.style.zIndex = 9999;
-    btn.onclick = showSelected;
-    document.body.appendChild(btn);
-
-    var toggleBtn = document.createElement("button");
-    toggleBtn.innerHTML = "Toggle Song Labels";
-    toggleBtn.style.position = "absolute";
-    toggleBtn.style.top = "50px";
-    toggleBtn.style.left = "10px";
-    toggleBtn.style.zIndex = 9999;
-    toggleBtn.onclick = toggleLabels;
-    document.body.appendChild(toggleBtn);
-    </script>
-    '''
+    js_file_path = os.path.join(os.path.dirname(__file__), "static", "graph_interactivity.js")
+    with open(js_file_path, 'r', encoding='utf-8') as f_js:
+        js_script = f"<script>{f_js.read()}</script>"
 
     html = html.replace("</body>", js_script + "</body>")
 

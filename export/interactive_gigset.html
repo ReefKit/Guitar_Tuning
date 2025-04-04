@@ -1,0 +1,304 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #1e1e1e;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+             #config {
+                 float: left;
+                 width: 400px;
+                 height: 600px;
+             }
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+            <div id="config"></div>
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#00bfff", "font": {"color": "white"}, "id": 1, "label": "D A D G B E", "shape": "dot", "size": 19, "songs_label": "Overlay by Antoine Dufour\nThe Nomad by Calum Graham", "tuning_label": "D A D G B E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 2, "label": "C E B E B E", "shape": "dot", "size": 17, "songs_label": "Phoenix Rising by Calum Graham", "tuning_label": "C E B E B E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 3, "label": "Db Ab Eb F Ab Eb", "shape": "dot", "size": 17, "songs_label": "Waiting by Calum Graham", "tuning_label": "Db Ab Eb F Ab Eb"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 4, "label": "F A C G C E", "shape": "dot", "size": 17, "songs_label": "Indivisible by Calum Graham", "tuning_label": "F A C G C E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 5, "label": "C F C F C C", "shape": "dot", "size": 17, "songs_label": "It is what it is by Calum Graham", "tuning_label": "C F C F C C"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 6, "label": "B G D E B C", "shape": "dot", "size": 17, "songs_label": "Three Way Street by Calum Graham", "tuning_label": "B G D E B C"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 7, "label": "D G D F# Ab D", "shape": "dot", "size": 17, "songs_label": "12:34 by Calum Graham", "tuning_label": "D G D F# Ab D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 8, "label": "D A C# D Ab Eb", "shape": "dot", "size": 17, "songs_label": "Tabula Rasa by Calum Graham", "tuning_label": "D A C# D Ab Eb"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 9, "label": "D G D G B Eb", "shape": "dot", "size": 17, "songs_label": "Farewell by Calum Graham", "tuning_label": "D G D G B Eb"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 10, "label": "E A D G B E", "shape": "dot", "size": 19, "songs_label": "South side of the Sky by Antoine Dufour\nWhiskey Sunrise by Calum Graham", "tuning_label": "E A D G B E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 11, "label": "B F# C# F# B F#", "shape": "dot", "size": 19, "songs_label": "Feeling Higher by Daniel Padim\nWaiting For You by Daniel Padim", "tuning_label": "B F# C# F# B F#"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 12, "label": "D A C G A E", "shape": "dot", "size": 17, "songs_label": "Pursuing the Horizon by Donovan Raitt", "tuning_label": "D A C G A E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 13, "label": "C G C G C E", "shape": "dot", "size": 19, "songs_label": "Auto Reverse by Antoine Dufour\nOcean by John Butler", "tuning_label": "C G C G C E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 14, "label": "C A D G B E", "shape": "dot", "size": 17, "songs_label": "Neon by John Mayer", "tuning_label": "C A D G B E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 15, "label": "A E B E G B", "shape": "dot", "size": 19, "songs_label": "Telepathy by Jon Gomm\nWujan Motorcycle Kid by Jon Gomm", "tuning_label": "A E B E G B"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 16, "label": "C A F C F A#", "shape": "dot", "size": 17, "songs_label": "Afterglow by Jon Gomm", "tuning_label": "C A F C F A#"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 17, "label": "F A C G A C", "shape": "dot", "size": 17, "songs_label": "Passionflower by Jon Gomm", "tuning_label": "F A C G A C"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 18, "label": "C G D G B D", "shape": "dot", "size": 17, "songs_label": "Orville by Jon Gomm", "tuning_label": "C G D G B D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 19, "label": "C G D G B E", "shape": "dot", "size": 19, "songs_label": "To Run in a Dream by Antoine Dufour\nThe Battle of WonderLand by Spencer Elliot", "tuning_label": "C G D G B E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 20, "label": "C G D G B C", "shape": "dot", "size": 17, "songs_label": "First Flight by Spencer Elliot", "tuning_label": "C G D G B C"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 21, "label": "D G D F A D", "shape": "dot", "size": 17, "songs_label": "Elipsos by Spencer Elliot", "tuning_label": "D G D F A D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 22, "label": "C G D G A# D", "shape": "dot", "size": 19, "songs_label": "Carousel by Spencer Elliot\nOff The Path by Tobias Rauscher", "tuning_label": "C G D G A# D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 23, "label": "B F# D F# B D", "shape": "dot", "size": 17, "songs_label": "Insignificant by Spencer Elliot", "tuning_label": "B F# D F# B D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 24, "label": "C E A D F# B", "shape": "dot", "size": 17, "songs_label": "Some Forgotten Color (Baritone) by Spencer Elliot", "tuning_label": "C E A D F# B"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 25, "label": "C G D F C E", "shape": "dot", "size": 17, "songs_label": "The Wolf and the Hawk by Spencer Elliot", "tuning_label": "C G D F C E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 26, "label": "A E C G A E", "shape": "dot", "size": 19, "songs_label": "Rain Shadow by Spencer Elliot\nThe Tournament by Spencer Elliot", "tuning_label": "A E C G A E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 27, "label": "G D A B D B", "shape": "dot", "size": 17, "songs_label": "Time Stands Still (Baritone) by Spencer Elliot", "tuning_label": "G D A B D B"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 28, "label": "C# G# C# E B D#", "shape": "dot", "size": 17, "songs_label": "Yin by Spencer Elliot", "tuning_label": "C# G# C# E B D#"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 29, "label": "C G C G A# C", "shape": "dot", "size": 17, "songs_label": "Torque by Spencer Elliot", "tuning_label": "C G C G A# C"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 30, "label": "A F C G B C", "shape": "dot", "size": 17, "songs_label": "Unspoken by Spencer Elliot", "tuning_label": "A F C G B C"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 31, "label": "D F# D F# A B", "shape": "dot", "size": 17, "songs_label": "On The Run by Tobias Rauscher", "tuning_label": "D F# D F# A B"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 32, "label": "Eb Bb D G B F", "shape": "dot", "size": 17, "songs_label": "Hutton Drive by Tobias Rauscher", "tuning_label": "Eb Bb D G B F"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 33, "label": "Eb G D G Bb D", "shape": "dot", "size": 17, "songs_label": "Memories by Tobias Rauscher", "tuning_label": "Eb G D G Bb D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 34, "label": "C G C G C D", "shape": "dot", "size": 17, "songs_label": "Acousticore by Tobias Rauscher", "tuning_label": "C G C G C D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 35, "label": "E C D G A D", "shape": "dot", "size": 17, "songs_label": "Coming Home by Tobias Rauscher", "tuning_label": "E C D G A D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 36, "label": "D# G D G A# D", "shape": "dot", "size": 17, "songs_label": "Still Awake by Tobias Rauscher", "tuning_label": "D# G D G A# D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 37, "label": "E A D G B D", "shape": "dot", "size": 17, "songs_label": "Perspectives by Tobias Rauscher", "tuning_label": "E A D G B D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 38, "label": "C G C D G C", "shape": "dot", "size": 17, "songs_label": "The Future by Luca Stricagnoli", "tuning_label": "C G C D G C"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 39, "label": "B F# C# D A D", "shape": "dot", "size": 19, "songs_label": "Encomium (Reverie) by Mike Dawes\nThe Old Room by Mike Dawes", "tuning_label": "B F# C# D A D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 40, "label": "A# A# D# F A# D#", "shape": "dot", "size": 17, "songs_label": "Boogie Slam by Mike Dawes", "tuning_label": "A# A# D# F A# D#"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 41, "label": "C# G# C# F# G# C#", "shape": "dot", "size": 17, "songs_label": "Overload by Mike Dawes", "tuning_label": "C# G# C# F# G# C#"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 42, "label": "C A D G A D", "shape": "dot", "size": 17, "songs_label": "Somebody That I Used To Know by Mike Dawes", "tuning_label": "C A D G A D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 43, "label": "Eb Bb C G Bb D", "shape": "dot", "size": 19, "songs_label": "Air Ground by Antoine Dufour\nElectromagnetic Sun Powered Starship by Antoine Dufour", "tuning_label": "Eb Bb C G Bb D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 44, "label": "C# G# E F# B D#", "shape": "dot", "size": 17, "songs_label": "Deja Vu by Antoine Dufour", "tuning_label": "C# G# E F# B D#"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 45, "label": "D A E F C E", "shape": "dot", "size": 17, "songs_label": "Drowning by Antoine Dufour", "tuning_label": "D A E F C E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 46, "label": "E A C G B D", "shape": "dot", "size": 17, "songs_label": "Lost in Your Eyes by Antoine Dufour", "tuning_label": "E A C G B D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 47, "label": "E A C G B E", "shape": "dot", "size": 17, "songs_label": "Spirits in the Material World by Antoine Dufour", "tuning_label": "E A C G B E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 48, "label": "D A E F# C# D", "shape": "dot", "size": 17, "songs_label": "In my Own Rhythms by Antoine Dufour", "tuning_label": "D A E F# C# D"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 49, "label": "D A E G# A E", "shape": "dot", "size": 17, "songs_label": "Hide and Seek by Antoine Dufour", "tuning_label": "D A E G# A E"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 50, "label": "F Ab C Db Bb F", "shape": "dot", "size": 17, "songs_label": "So Little While Road by Antoine Dufour", "tuning_label": "F Ab C Db Bb F"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 51, "label": "Eb Bb D Eb Bb F", "shape": "dot", "size": 17, "songs_label": "The Drive Within by Antoine Dufour", "tuning_label": "Eb Bb D Eb Bb F"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 52, "label": "C# G# E G# C# D#", "shape": "dot", "size": 17, "songs_label": "Cold Day by Antoine Dufour", "tuning_label": "C# G# E G# C# D#"}, {"color": "#00bfff", "font": {"color": "white"}, "id": 53, "label": "C# A B G# B E", "shape": "dot", "size": 17, "songs_label": "Life in Technicolor by Antoine Dufour", "tuning_label": "C# A B G# B E"}]);
+                  edges = new vis.DataSet([{"color": "#aaaaaa", "from": 1, "to": 14}, {"color": "#aaaaaa", "from": 1, "to": 19}, {"color": "#aaaaaa", "from": 1, "to": 28}, {"color": "#aaaaaa", "from": 1, "to": 41}, {"color": "#aaaaaa", "from": 1, "to": 12}, {"color": "#aaaaaa", "from": 1, "to": 21}, {"color": "#aaaaaa", "from": 1, "to": 9}, {"color": "#aaaaaa", "from": 1, "to": 47}, {"color": "#aaaaaa", "from": 1, "to": 37}, {"color": "#aaaaaa", "from": 1, "to": 10}, {"color": "#aaaaaa", "from": 3, "to": 49}, {"color": "#aaaaaa", "from": 3, "to": 27}, {"color": "#aaaaaa", "from": 4, "to": 24}, {"color": "#aaaaaa", "from": 4, "to": 47}, {"color": "#aaaaaa", "from": 6, "to": 48}, {"color": "#aaaaaa", "from": 7, "to": 49}, {"color": "#aaaaaa", "from": 7, "to": 21}, {"color": "#aaaaaa", "from": 8, "to": 51}, {"color": "#aaaaaa", "from": 9, "to": 18}, {"color": "#aaaaaa", "from": 9, "to": 19}, {"color": "#aaaaaa", "from": 10, "to": 24}, {"color": "#aaaaaa", "from": 10, "to": 21}, {"color": "#aaaaaa", "from": 10, "to": 46}, {"color": "#aaaaaa", "from": 10, "to": 47}, {"color": "#aaaaaa", "from": 10, "to": 37}, {"color": "#aaaaaa", "from": 12, "to": 41}, {"color": "#aaaaaa", "from": 12, "to": 47}, {"color": "#aaaaaa", "from": 13, "to": 34}, {"color": "#aaaaaa", "from": 13, "to": 25}, {"color": "#aaaaaa", "from": 13, "to": 19}, {"color": "#aaaaaa", "from": 14, "to": 42}, {"color": "#aaaaaa", "from": 14, "to": 18}, {"color": "#aaaaaa", "from": 14, "to": 19}, {"color": "#aaaaaa", "from": 15, "to": 42}, {"color": "#aaaaaa", "from": 15, "to": 29}, {"color": "#aaaaaa", "from": 15, "to": 34}, {"color": "#aaaaaa", "from": 15, "to": 22}, {"color": "#aaaaaa", "from": 15, "to": 20}, {"color": "#aaaaaa", "from": 15, "to": 18}, {"color": "#aaaaaa", "from": 15, "to": 19}, {"color": "#aaaaaa", "from": 15, "to": 44}, {"color": "#aaaaaa", "from": 15, "to": 52}, {"color": "#aaaaaa", "from": 18, "to": 42}, {"color": "#aaaaaa", "from": 18, "to": 34}, {"color": "#aaaaaa", "from": 18, "to": 22}, {"color": "#aaaaaa", "from": 18, "to": 20}, {"color": "#aaaaaa", "from": 18, "to": 19}, {"color": "#aaaaaa", "from": 18, "to": 52}, {"color": "#aaaaaa", "from": 19, "to": 25}, {"color": "#aaaaaa", "from": 19, "to": 22}, {"color": "#aaaaaa", "from": 20, "to": 29}, {"color": "#aaaaaa", "from": 20, "to": 22}, {"color": "#aaaaaa", "from": 21, "to": 24}, {"color": "#aaaaaa", "from": 21, "to": 38}, {"color": "#aaaaaa", "from": 21, "to": 41}, {"color": "#aaaaaa", "from": 21, "to": 37}, {"color": "#aaaaaa", "from": 22, "to": 42}, {"color": "#aaaaaa", "from": 22, "to": 29}, {"color": "#aaaaaa", "from": 22, "to": 34}, {"color": "#aaaaaa", "from": 22, "to": 44}, {"color": "#aaaaaa", "from": 22, "to": 52}, {"color": "#aaaaaa", "from": 23, "to": 52}, {"color": "#aaaaaa", "from": 24, "to": 47}, {"color": "#aaaaaa", "from": 24, "to": 37}, {"color": "#aaaaaa", "from": 25, "to": 28}, {"color": "#aaaaaa", "from": 27, "to": 49}, {"color": "#aaaaaa", "from": 28, "to": 39}, {"color": "#aaaaaa", "from": 28, "to": 45}, {"color": "#aaaaaa", "from": 29, "to": 34}, {"color": "#aaaaaa", "from": 31, "to": 36}, {"color": "#aaaaaa", "from": 31, "to": 33}, {"color": "#aaaaaa", "from": 33, "to": 36}, {"color": "#aaaaaa", "from": 37, "to": 41}, {"color": "#aaaaaa", "from": 37, "to": 46}, {"color": "#aaaaaa", "from": 37, "to": 47}, {"color": "#aaaaaa", "from": 39, "to": 45}, {"color": "#aaaaaa", "from": 41, "to": 42}, {"color": "#aaaaaa", "from": 44, "to": 52}, {"color": "#aaaaaa", "from": 44, "to": 45}, {"color": "#aaaaaa", "from": 46, "to": 47}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+                  // if this network requires displaying the configure window,
+                  // put it in its div
+                  options.configure["container"] = document.getElementById("config");
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    <script>let gigsetPath = [];
+let highlightColor = '#90ee90';
+let selectedColor = '#ff69b4';
+let defaultColor = '#00bfff';
+let showSongs = false;
+
+function getAdjacentNodes(nodeId) {
+    const connectedEdges = network.getConnectedEdges(nodeId);
+    const adjacent = new Set();
+    connectedEdges.forEach(edgeId => {
+        const edge = network.body.edges[edgeId];
+        const {from, to} = edge;
+        if (from.id === nodeId) adjacent.add(to.id);
+        else if (to.id === nodeId) adjacent.add(from.id);
+    });
+    return Array.from(adjacent);
+}
+
+function updateHighlighting() {
+    const allNodes = network.body.data.nodes.get();
+    const updatedNodes = allNodes.map((node, index) => {
+        const id = node.id;
+        let color = defaultColor;
+        let label = showSongs ? node.songs_label : node.tuning_label || node.label;
+
+        if (gigsetPath.includes(id)) {
+            color = selectedColor;
+            const order = gigsetPath.indexOf(id) + 1;
+            label = `${label}`; // Label stays clean, no numbering here
+        } else if (
+            gigsetPath.length === 0 ||
+            getAdjacentNodes(gigsetPath[gigsetPath.length - 1]).includes(id)
+        ) {
+            color = highlightColor;
+        }
+
+        return { id: id, color: color, label: label }; // Label unchanged
+    });
+
+    network.body.data.nodes.update(updatedNodes);
+
+    const allEdges = network.body.data.edges.get();
+    const updatedEdges = allEdges.map(edge => {
+        const fromIndex = gigsetPath.indexOf(edge.from);
+        const toIndex = gigsetPath.indexOf(edge.to);
+        const isConsecutive = Math.abs(fromIndex - toIndex) === 1;
+        const isInPath = fromIndex !== -1 && toIndex !== -1 && isConsecutive;
+        return {
+            id: edge.id,
+            color: isInPath ? { color: '#ff69b4', highlight: '#ff1493' } : { color: '#848484' }
+        };
+    });
+    network.body.data.edges.update(updatedEdges);
+
+    // Add numeric overlay for each node
+    const canvas = network.canvas.frame.canvas;
+    const ctx = canvas.getContext("2d");
+    network.on("afterDrawing", () => {
+        const canvas = network.canvas.frame.canvas;
+        const ctx = canvas.getContext("2d");
+        ctx.font = "bold 16px Arial";
+        ctx.fillStyle = "black";
+        ctx.textAlign = "center";
+        ctx.textBaseline = "middle";
+        gigsetPath.forEach((nodeId, i) => {
+            const pos = network.getPositions([nodeId])[nodeId];
+            ctx.fillText(i + 1, pos.x, pos.y);
+        });
+    });    
+}
+
+function handleGigsetClick(params) {
+    if (params.nodes.length > 0) {
+        const nodeId = params.nodes[0];
+
+        if (gigsetPath[gigsetPath.length - 1] === nodeId) {
+            gigsetPath.pop(); // Undo last node
+        } else if (
+            !gigsetPath.includes(nodeId) &&
+            (gigsetPath.length === 0 || getAdjacentNodes(gigsetPath[gigsetPath.length - 1]).includes(nodeId))
+        ) {
+            gigsetPath.push(nodeId);
+        }
+
+        updateHighlighting();
+    }
+}
+
+function showGigset() {
+    alert("Gigset Tunings: " + gigsetPath.join(" -> "));
+}
+
+function resetGigset() {
+    gigsetPath = [];
+    updateHighlighting();
+    network.redraw();
+}
+
+function toggleLabels() {
+    showSongs = !showSongs;
+    updateHighlighting();
+}
+
+network.on("click", handleGigsetClick);
+
+const showBtn = document.createElement("button");
+showBtn.innerHTML = "Show Gigset";
+showBtn.style.position = "absolute";
+showBtn.style.top = "10px";
+showBtn.style.left = "10px";
+showBtn.style.zIndex = 9999;
+showBtn.onclick = showGigset;
+document.body.appendChild(showBtn);
+
+const resetBtn = document.createElement("button");
+resetBtn.innerHTML = "Reset Gigset";
+resetBtn.style.position = "absolute";
+resetBtn.style.top = "50px";
+resetBtn.style.left = "10px";
+resetBtn.style.zIndex = 9999;
+resetBtn.onclick = resetGigset;
+document.body.appendChild(resetBtn);
+
+const toggleBtn = document.createElement("button");
+toggleBtn.innerHTML = "Toggle Song Labels";
+toggleBtn.style.position = "absolute";
+toggleBtn.style.top = "90px";
+toggleBtn.style.left = "10px";
+toggleBtn.style.zIndex = 9999;
+toggleBtn.onclick = toggleLabels;
+document.body.appendChild(toggleBtn);
+
+// Initial color setup
+network.once("afterDrawing", updateHighlighting);
+</script></body>
+</html>

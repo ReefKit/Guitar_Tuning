@@ -1,7 +1,8 @@
 # Python virtual environment
 venv/
 __pycache__/
-*.pyc
+*.py[cod]
+*.egg-info/
 
 # Jupyter notebooks
 *.ipynb_checkpoints/
@@ -10,14 +11,23 @@ __pycache__/
 *~
 .*.swp
 .DS_Store
+.~*
+*.bak
 
 # Project-specific
 Archive/
-.~*
 
 # Data
 data/*.db
+data/*.csv  # optional: if you want to ignore imported song files
 
 # Graph exports
 export/*.graphml
 export/clusters/
+export/*.html  # add this if interactive_gigset.html is generated
+
+# Timing tests
+scripts/importTime.txt
+
+# Editor/project settings
+.vscode/
