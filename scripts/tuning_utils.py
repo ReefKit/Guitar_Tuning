@@ -91,7 +91,13 @@ def optimize_transposition(tuning1: str, tuning2: str) -> int:
     
     return optimal_transposition
 
-def are_tunings_close(tuning1: str, tuning2: str, max_changed_strings: int, max_pitch_change: int, max_total_difference: int) -> bool:
+def are_tunings_close(
+    tuning1: str,
+    tuning2: str,
+    max_changed_strings: int,
+    max_pitch_change: int,
+    max_total_difference: int
+) -> tuple[bool, int]:
     """
     Evaluates whether two tunings are 'close' by determining the optimal transposition
     and assessing the number of changed strings, per-string pitch shifts, and total
@@ -105,22 +111,46 @@ def are_tunings_close(tuning1: str, tuning2: str, max_changed_strings: int, max_
         max_total_difference (int): Maximum total pitch difference allowed across all strings.
 
     Returns:
-        bool: True if the tunings are close under optimal transposition, False otherwise.
-
-    Raises:
-        ValueError: If the tunings do not have the same number of strings.
+        Tuple[bool, int]: 
+            - True if the tunings are close under optimal transposition, False otherwise.
+            - The optimal shift (in semitones).
     """
     shift = optimize_transposition(tuning1, tuning2)
     abs_pitch1 = [p + shift for p in get_absolute_pitch(tuning1)]
     abs_pitch2 = get_absolute_pitch(tuning2)
-    
+
     differences = [abs(p1 - p2) for p1, p2 in zip(abs_pitch1, abs_pitch2)]
-    
+
     changed_strings = sum(1 for diff in differences if diff > 0)
     total_difference = sum(differences)
-    
-    return (
+
+    is_close = (
         changed_strings <= max_changed_strings and
         all(diff <= max_pitch_change for diff in differences) and
         total_difference <= max_total_difference
     )
+
+    return is_close, shift
+
+def get_pitch_vector(tuning1: str, tuning2: str, shift: int) -> list[int]:
+    """
+    Computes the per-string pitch differences between two tunings after applying
+    a global transposition (shift) to tuning1 to best align it with tuning2.
+
+    This function assumes the tunings have already been validated to have the same
+    number of strings, and that the optimal shift has been precomputed using
+    `optimize_transposition()`.
+
+    Args:
+        tuning1 (str): The source tuning (e.g., "E A D G B E").
+        tuning2 (str): The destination tuning (e.g., "D A D G B E").
+        shift (int): The optimal semitone shift applied to tuning1.
+
+    Returns:
+        list[int]: A list of semitone changes for each string, from tuning1 (shifted) to tuning2.
+                   For example: [0, 0, -2, 0, 0, 0] means only the 3rd string dropped 2 semitones.
+    """
+    abs_pitch1 = [p + shift for p in get_absolute_pitch(tuning1)]
+    abs_pitch2 = get_absolute_pitch(tuning2)
+
+    return [p2 - p1 for p1, p2 in zip(abs_pitch1, abs_pitch2)] # todo: optimise (this computation is already half done in optimize_transposition)

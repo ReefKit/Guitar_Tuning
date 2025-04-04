@@ -29,6 +29,7 @@ CREATE TABLE IF NOT EXISTS tuning_relationships (
     tuning_id INTEGER NOT NULL,           -- Reference to tunings.id
     close_tuning_id INTEGER NOT NULL,     -- Another tuning
     closeness_key_id INTEGER NOT NULL,    -- Reference to closeness_keys.id
+    pitch_vector TEXT,                    -- How to move from tuning_id to close_tuning_id (comma-separated string of semitone changes)
     FOREIGN KEY (tuning_id) REFERENCES tunings(id) ON DELETE CASCADE,
     FOREIGN KEY (close_tuning_id) REFERENCES tunings(id) ON DELETE CASCADE,
     FOREIGN KEY (closeness_key_id) REFERENCES closeness_keys(id) ON DELETE CASCADE

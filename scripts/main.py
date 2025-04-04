@@ -92,13 +92,28 @@ def find_by_name(query):
 # -------------------- Tuning Analysis Commands --------------------
 
 @cli.command(help="Analyze tuning closeness and store relationships in the database.")
-@click.option("--max-changed", type=int, required=True, help="Max number of changed strings.")
-@click.option("--max-pitch", type=int, required=True, help="Max pitch change per string.")
-@click.option("--max-total", type=int, required=True, help="Max total pitch change.")
-def analyze(max_changed, max_pitch, max_total):
+@click.option("--max-changed", type=int, help="Max number of changed strings.")
+@click.option("--max-pitch", type=int, help="Max pitch change per string.")
+@click.option("--max-total", type=int, help="Max total pitch change.")
+@click.option("--closeness-key-id", type=int, help="Use existing closeness key instead of thresholds.")
+def analyze(max_changed, max_pitch, max_total, closeness_key_id):
+    if closeness_key_id and (max_changed or max_pitch or max_total):
+        raise click.UsageError("Use either --closeness-key-id or threshold values, not both.")
+
+    if not closeness_key_id and (max_changed is None or max_pitch is None or max_total is None):
+        raise click.UsageError("If not using --closeness-key-id, you must specify all threshold options.")
+
     with sqlite3.connect(DB_FILE) as conn:
-        compute_all_closeness(conn, max_changed, max_pitch, max_total)
+        compute_all_closeness(
+            conn,
+            max_changed=max_changed,
+            max_pitch=max_pitch,
+            max_total=max_total,
+            closeness_key_id=closeness_key_id
+        )
+
     click.echo("✅ Tuning closeness analysis complete.")
+
 
 
 # -------------------- Utility Commands --------------------

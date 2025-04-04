@@ -146,29 +146,33 @@ def insert_tuning_relationship(
     conn: sqlite3.Connection,
     tuning_id: int,
     close_tuning_id: int,
-    closeness_key_id: int
+    closeness_key_id: int,
+    pitch_vector: str
 ) -> None:
     """
-    Inserts a relationship between two tunings for a given closeness key.
+    Inserts a relationship between two tunings for a given closeness key,
+    including the per-string pitch vector used to move from one to the other.
 
     Args:
-        tuning_id (int): ID of the source tuning.
-        close_tuning_id (int): ID of the related tuning.
+        tuning_id (int): ID of the first tuning.
+        close_tuning_id (int): ID of the second tuning.
         closeness_key_id (int): ID of the applied closeness rule.
+        pitch_vector (str): Comma-separated string of pitch differences (e.g., "2,0,0,0,0,0").
         conn (sqlite3.Connection): Active DB connection.
     """
     cursor = conn.cursor()
 
-    # Ensure consistent order (e.g., avoid storing both (1,2) and (2,1))
+    # Ensure consistent order to avoid duplicates like (1,2) and (2,1)
     tuning_id, close_tuning_id = sorted([tuning_id, close_tuning_id])
 
     try:
         cursor.execute(
             """
-            INSERT INTO tuning_relationships (tuning_id, close_tuning_id, closeness_key_id)
-            VALUES (?, ?, ?)
+            INSERT INTO tuning_relationships 
+                (tuning_id, close_tuning_id, closeness_key_id, pitch_vector)
+            VALUES (?, ?, ?, ?)
             """,
-            (tuning_id, close_tuning_id, closeness_key_id)
+            (tuning_id, close_tuning_id, closeness_key_id, pitch_vector)
         )
         conn.commit()
     except sqlite3.IntegrityError:
